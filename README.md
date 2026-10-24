@@ -1,59 +1,59 @@
 # ai-disneyland 🎡
 
-Минимальный **file-based AI harness для учёбы**. Не приложение и не кодовая база: обычные Markdown-файлы + Claude Code или Codex + Git.
+A minimal **file-based AI harness for studying**. Not an application and not a codebase: plain Markdown files + Claude Code or Codex + Git.
 
-## Быстрый старт
+## Quick start
 
-1. Открой терминал **в папке `ai-disneyland`**.
-2. Запусти `claude` (Claude Code) **или** `codex` (Codex CLI). Эти инструменты должны быть установлены и авторизованы заранее.
-3. Попроси: «Прочитай инструкции проекта и скажи, что знаешь о моём учебном плане».
-4. Начни занятие через `/study-session` в Claude Code или `$study-session` в Codex. Можно просто написать «Проведём учебное занятие по Спиваку».
-5. В конце скажи: «Закончили занятие. Сделай запись и обнови прогресс». Проверь предлагаемые изменения.
+1. Open a terminal **in the `ai-disneyland` folder**.
+2. Run `claude` (Claude Code) **or** `codex` (Codex CLI). These tools must be installed and authorized beforehand.
+3. Ask: "Read the project instructions and tell me what you know about my study plan".
+4. Start a session with `/study-session` in Claude Code or `$study-session` in Codex. You can also simply write "Let's run a study session on Spivak".
+5. At the end, say: "We're done with the session. Write it up and update the progress files". Review the proposed changes.
 
-## Как устроено
+## How it is organized
 
 ```text
 ai-disneyland/
-├── AGENTS.md                        # единые правила для агента
-├── CLAUDE.md                        # импорт AGENTS.md для Claude
+├── AGENTS.md                        # shared rules for the agent
+├── CLAUDE.md                        # imports AGENTS.md for Claude
 ├── learning/
-│   ├── learner.md                   # подтверждённый контекст об ученике
-│   ├── roadmap.md                   # учебные цели и планы
-│   ├── now.md                       # актуальное состояние / следующий шаг
-│   ├── progress/                    # прогресс по предметам
-│   └── sessions/                    # отчёты завершённых занятий
-├── templates/session-note.md        # шаблон отчёта
-├── resources/README.md              # ссылки на материалы
-├── .claude/skills/study-session/     # навык для Claude Code
-└── .agents/skills/study-session/     # тот же навык для Codex
+│   ├── learner.md                   # confirmed context about the learner
+│   ├── roadmap.md                   # study goals and plans
+│   ├── now.md                       # current state / next step
+│   ├── progress/                    # progress per subject
+│   └── sessions/                    # reports of completed sessions
+├── templates/session-note.md        # report template
+├── resources/README.md              # links to materials
+├── .claude/skills/study-session/     # skill for Claude Code
+└── .agents/skills/study-session/     # the same skill for Codex
 ```
 
-Файл `AGENTS.md` — правила поведения; `learning/` — наша **открытая и проверяемая память**. Содержимое `learning/` сохраняется в Git. Автоматическая память Claude Code, если включена, живёт отдельно от этого репозитория; не считать её источником истины.
+`AGENTS.md` holds the rules of behavior; `learning/` is our **open and verifiable memory**. The contents of `learning/` are kept in Git. Claude Code's automatic memory, if enabled, lives outside this repository; do not treat it as the source of truth.
 
-## Основной принцип
+## Core principle
 
-Уменьшить количество программирования и увеличить количество **реальной учёбы**. Не добавлять базы данных, RAG, внешние плагины, субагентов или скрипты, пока не появится конкретная проблема, которую они решают.
+Reduce the amount of programming and increase the amount of **actual studying**. Do not add databases, RAG, external plugins, subagents, or scripts until there is a concrete problem they solve.
 
-## Работа с Git
+## Working with Git
 
-Репозиторий уже инициализирован и имеет начальный коммит. Отправка на GitHub **не настроена**.
+The repository is already initialized and has an initial commit. Pushing to GitHub is **not configured**.
 
-После распаковки: `git status` должен показывать чистое состояние (если архив был извлечён вместе с `.git`). Для привязки своего удалённого репозитория:
+After unpacking: `git status` should show a clean state (if the archive was extracted together with `.git`). To attach your own remote repository:
 
 ```bash
 git remote add origin git@github.com:YOUR_USERNAME/ai-disneyland.git
 git push -u origin main
 ```
 
-Создай пустой **private** репозиторий на GitHub заранее, либо используй другого Git-хостера и замени URL. Не коммить API-ключи, чужие книги, персональные или закрытые материалы без осознанного решения.
+Create an empty **private** repository on GitHub in advance, or use another Git host and replace the URL. Do not commit API keys, other people's books, or personal or confidential materials without a deliberate decision.
 
-## Где редактировать
+## Where to edit
 
-- Новые цели → `learning/roadmap.md`.
-- Изменение учебной методики → `AGENTS.md` или `SKILL.md`.
-- После занятия → новая запись в `learning/sessions/`, обновление `now.md` и предметного прогресса.
-- Повторяющиеся ошибки → `learning/progress/<предмет>.md` с привязкой к дате занятия.
+- New goals → `learning/roadmap.md`.
+- Changes to the teaching method → `AGENTS.md` or `SKILL.md`.
+- After a session → a new entry in `learning/sessions/`, plus updates to `now.md` and the relevant subject progress file.
+- Recurring mistakes → `learning/progress/<subject>.md`, linked to the session date.
 
-**Совместимость:** скилл намеренно продублирован в `.claude/skills/` и `.agents/skills/`, чтобы работал в обеих средах и при распаковке ZIP на разных ОС. Если правишь методику скилла, синхронизируй оба `SKILL.md`. Позже можно заменить дубликаты symlink-ами.
+**Compatibility:** the skill is intentionally duplicated in `.claude/skills/` and `.agents/skills/` so that it works in both environments and when the ZIP is unpacked on different operating systems. If you edit the skill's method, keep both `SKILL.md` files in sync. The duplicates can later be replaced with symlinks.
 
-Документация: [Claude Code memory](https://code.claude.com/docs/en/memory), [Claude Code skills](https://code.claude.com/docs/en/skills), [Codex skills](https://learn.chatgpt.com/docs/build-skills).
+Documentation: [Claude Code memory](https://code.claude.com/docs/en/memory), [Claude Code skills](https://code.claude.com/docs/en/skills), [Codex skills](https://learn.chatgpt.com/docs/build-skills).

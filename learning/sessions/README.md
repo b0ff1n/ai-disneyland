@@ -1,5 +1,5 @@
-# Архив учебных сессий
+# Archive of study sessions
 
-Для каждого завершённого занятия создавай новый файл `YYYY-MM-DD-<short-topic>.md` по `templates/session-note.md`.
+For each completed session, create a new file `YYYY-MM-DD-<short-topic>.md` based on `templates/session-note.md`.
 
-Не генерируй занятия задним числом из предположений. Записывай только то, что действительно происходило, и явно разделяй наблюдения, самооценку и проверенные результаты.
+Do not generate sessions after the fact from assumptions. Record only what actually happened, and clearly separate observations, self-assessment, and verified results.

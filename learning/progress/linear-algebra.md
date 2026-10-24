@@ -1,19 +1,19 @@
-# Linear Algebra — прогресс
+# Linear Algebra — progress
 
-**Материал:** Sheldon Axler, *Linear Algebra Done Right*.
+**Material:** Sheldon Axler, *Linear Algebra Done Right*.
 
-## Подтверждённые результаты в ai-disneyland
+## Confirmed results in ai-disneyland
 
-Пока нет.
+None yet.
 
-## Темы, требующие проверки
+## Topics that need checking
 
-Пока не определены.
+Not determined yet.
 
-## История ошибок
+## History of mistakes
 
-Пока нет.
+None yet.
 
-## Следующая проверка
+## Next check
 
-Определить точку входа и выбрать упражнения.
+Determine the entry point and choose exercises.

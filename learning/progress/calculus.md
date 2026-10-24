@@ -1,19 +1,19 @@
-# Calculus — прогресс
+# Calculus — progress
 
-**Материал:** Michael Spivak, *Calculus*, 3rd edition.
+**Material:** Michael Spivak, *Calculus*, 3rd edition.
 
-## Подтверждённые результаты в ai-disneyland
+## Confirmed results in ai-disneyland
 
-Пока нет. Первое занятие ещё не записано.
+None yet. The first session has not been recorded.
 
-## Темы, требующие проверки
+## Topics that need checking
 
-- Определить стартовую точку и скорость повторения по результатам первых упражнений.
+- Determine the starting point and the pace of review based on the results of the first exercises.
 
-## История ошибок
+## History of mistakes
 
-Пока нет зафиксированных наблюдений.
+No observations recorded yet.
 
-## Следующая проверка
+## Next check
 
-Согласовать раздел и решить несколько упражнений самостоятельно.
+Agree on a section and solve a few exercises independently.

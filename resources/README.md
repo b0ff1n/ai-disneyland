@@ -1,10 +1,10 @@
-# Учебные материалы
+# Study materials
 
-Здесь можно хранить ссылки на силлабусы, библиографию, собственные конспекты и небольшие цитаты/фрагменты для работы.
+This is a place to keep links to syllabi, bibliography, your own notes, and small quotes/excerpts to work with.
 
-Текущие ориентиры:
+Current reference points:
 - Spivak, *Calculus*, 3rd edition.
 - Axler, *Linear Algebra Done Right*.
-- Официальные материалы будущих университетских курсов — добавить после проверки.
+- Official materials of future university courses — to be added once verified.
 
-Не добавляй в публичный или общий репозиторий полные коммерческие учебники, секреты, токены или закрытые документы. Крупные PDF/EPUB по умолчанию исключены `.gitignore`.
+Do not add full commercial textbooks, secrets, tokens, or private documents to a public or shared repository. Large PDF/EPUB files are excluded by `.gitignore` by default.

@@ -1,11 +1,11 @@
-# Где мы сейчас
+# Where we are now
 
-Обновлено: 2026-10-24 (стартовый шаблон)
+Updated: 2026-10-24 (starter template)
 
-- **Состояние:** репозиторий создан; учебных занятий в нём ещё не зафиксировано.
-- **Вероятный первый предмет:** математический анализ по Спиваку, 3-е издание.
-- **Следующее действие:** провести первую учебную сессию; спросить ученика о выбранной теме, если он её не указал.
-- **Последняя сессия:** отсутствует.
-- **Незакрытые вопросы:** какие разделы уже уверенно освоены — требуется проверка упражнениями, а не предположение.
+- **State:** the repository has been created; no study sessions have been recorded in it yet.
+- **Likely first subject:** calculus, following Spivak, 3rd edition.
+- **Next action:** run the first study session; ask the learner about the chosen topic if they have not specified one.
+- **Last session:** none.
+- **Open questions:** which sections are already solidly mastered — this needs to be checked with exercises, not assumed.
 
-Этот файл должен оставаться коротким. Подробности — в `progress/` и `sessions/`.
+This file should stay short. Details belong in `progress/` and `sessions/`.

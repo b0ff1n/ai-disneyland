@@ -1,22 +1,22 @@
-# Учебная сессия — YYYY-MM-DD
+# Study session — YYYY-MM-DD
 
-- **Предмет:**
-- **Материал / раздел:**
-- **Продолжительность:** не указана (если неизвестна)
+- **Subject:**
+- **Material / section:**
+- **Duration:** not specified (if unknown)
 
-## Что изучали
+## What we studied
 
-## Что было проверено самостоятельно
+## What was checked independently
 
-Указывать конкретные задачи и краткое описание решения, если известно.
+List specific problems and a short description of the solution, if known.
 
-## Что получилось с подсказками
+## What worked with hints
 
-## Ошибки / пробелы
+## Mistakes / gaps
 
-## Непроверенные утверждения и вопросы
+## Unverified claims and open questions
 
-## Следующий шаг
+## Next step
 
-## Изменённые файлы прогресса
+## Progress files changed
 

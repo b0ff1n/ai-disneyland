@@ -1,15 +1,15 @@
-# Mechanics — прогресс
+# Mechanics — progress
 
-**Контекст:** подготовка к курсу механики.
+**Context:** preparation for a mechanics course.
 
-## Подтверждённые результаты в ai-disneyland
+## Confirmed results in ai-disneyland
 
-Пока нет.
+None yet.
 
-## Темы, требующие проверки
+## Topics that need checking
 
-Пока не определены.
+Not determined yet.
 
-## Следующая проверка
+## Next check
 
-Уточнить силлабус и стартовый уровень.
+Clarify the syllabus and the starting level.
