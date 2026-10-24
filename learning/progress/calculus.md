@@ -1,6 +1,6 @@
 # Calculus — progress
 
-**Material:** Michael Spivak, *Calculus*, 3rd edition.
+**Material:** Michael Spivak, *Calculus*, 4th edition.
 
 ## Confirmed results in ai-disneyland
 

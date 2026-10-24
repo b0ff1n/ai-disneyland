@@ -1,6 +1,6 @@
 # Linear Algebra — progress
 
-**Material:** Sheldon Axler, *Linear Algebra Done Right*.
+**Material:** Sheldon Axler, *Linear Algebra Done Right*, 3rd edition.
 
 ## Confirmed results in ai-disneyland
 
