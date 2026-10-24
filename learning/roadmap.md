@@ -11,9 +11,11 @@ Status: plans and priorities stated by the learner on 2026-10-24; these are inte
 
 ## Lower-priority studies until March 2027
 
-- Dummit & Foote, **Abstract Algebra** (edition not specified).
-- **Number theory** (resource not specified).
+- Dummit & Foote, **Abstract Algebra, 3rd edition** (local source supplied on 2026-10-25).
+- **Number theory:** Kato, Kurokawa & Saito, **Number Theory 1: Fermat's Dream**, English translation by Masato Kuwata, AMS, volume 186 (local source supplied on 2026-10-25).
 - Both are secondary to calculus and linear algebra preparation; no ordering between them has been specified.
+
+Exact source files, edition evidence, and page maps for all four books: [library catalog](../library/README.md).
 
 ## First semester: Open University of Israel, March 2027
 

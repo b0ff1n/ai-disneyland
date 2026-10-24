@@ -2,6 +2,8 @@
 
 **Material:** Sheldon Axler, *Linear Algebra Done Right*, 3rd edition.
 
+**Exact local source and page map:** [axler-ladr-3e](../../library/indexes/axler-ladr-3e.md).
+
 ## Confirmed results in ai-disneyland
 
 None yet.

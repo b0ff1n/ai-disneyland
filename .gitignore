@@ -1,0 +1,5 @@
+# Disposable PDF extraction, rendering, and OCR outputs.
+/library/cache/
+/tmp/
+__pycache__/
+*.pyc

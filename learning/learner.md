@@ -7,7 +7,8 @@
 - Courses taken previously: Linear Algebra 1, Infinitesimal Calculus 1, Introduction to Statistics and Probability.
 - University plan (stated by the learner on 2026-10-24): start studying at the Open University of Israel in **March 2027**. First-semester courses: **Mechanics, Discrete Mathematics, and Python**.
 - Main priority until March 2027: study Michael Spivak's **Calculus, 4th edition**, and Sheldon Axler's **Linear Algebra Done Right, 3rd edition**, specifically to prepare for those courses. Preparation needs determine the scope; completing both books is not an assumed goal.
-- Lower-priority goals during the same period: study Dummit & Foote's **Abstract Algebra** and **number theory**. No priority order between these two subjects has been specified; the abstract algebra edition and number theory resource have not been specified.
+- Lower-priority goals during the same period: study Dummit & Foote's **Abstract Algebra** and **number theory**. No priority order between these two subjects has been specified.
+- Local sources supplied on 2026-10-25: Dummit & Foote's **Abstract Algebra, 3rd edition**, and Kato, Kurokawa & Saito's **Number Theory 1: Fermat's Dream**, English translation by Masato Kuwata, AMS, volume 186, alongside the specified Spivak and Axler editions. Exact files and source limitations are recorded in [the library catalog](../library/README.md).
 - Longer-term goal: restore and deepen the mathematical foundation and then apply the knowledge in ML/AI.
 - Style: values rigorous explanations and solving problems independently; familiar with logic and quantifiers; does not currently plan separate preparatory work for discrete mathematics.
 - This entry contains **self-assessment and plans**, not the results of testing inside ai-disneyland.

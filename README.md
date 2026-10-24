@@ -24,6 +24,11 @@ ai-disneyland/
 │   └── sessions/                    # reports of completed sessions
 ├── templates/session-note.md        # report template
 ├── resources/README.md              # links to materials
+├── library/
+│   ├── README.md                    # exact textbook catalog and LFS usage
+│   ├── originals/                   # supplied PDFs, stored through Git LFS
+│   ├── indexes/                     # contents and printed/PDF page maps
+│   └── SHA256SUMS                   # identity of the indexed PDF files
 ├── .claude/skills/study-session/     # skill for Claude Code
 └── .agents/skills/study-session/     # the same skill for Codex
 ```
@@ -36,7 +41,7 @@ Reduce the amount of programming and increase the amount of **actual studying**.
 
 ## Working with Git
 
-The repository is already initialized and has an initial commit. Pushing to GitHub is **not configured**.
+The repository is already initialized. The textbook PDFs in `library/originals/` use **Git LFS**; see [the library guide](library/README.md) for setup, retrieval, and verification. The Markdown indexes remain ordinary Git files.
 
 After unpacking: `git status` should show a clean state (if the archive was extracted together with `.git`). To attach your own remote repository:
 

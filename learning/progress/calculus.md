@@ -2,6 +2,8 @@
 
 **Material:** Michael Spivak, *Calculus*, 4th edition.
 
+**Exact local source and page map:** [spivak-calculus-4e](../../library/indexes/spivak-calculus-4e.md).
+
 ## Confirmed results in ai-disneyland
 
 None yet. The first session has not been recorded.
