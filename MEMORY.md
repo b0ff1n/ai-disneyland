@@ -9,7 +9,8 @@ The learner uses this repository on multiple machines. As explicitly requested o
 | `AGENTS.md` | Shared tutoring rules, source verification, and rules for changing memory |
 | `MEMORY.md` | This description of storage, portability, and persistence |
 | `learning/now.md` | Short entry point: current priority, state, and next step |
-| `learning/learner.md` | Learner background, preferences, and stated plans; distinguish these from tested knowledge |
+| `learning/learner.md` | Current concise learner profile, preferences, and stated plans; distinguish these from tested knowledge |
+| `learning/interview-2026-10-25.md` | Dated interview context and self-reports; not a lesson, diagnostic exam, or learning-statistics record |
 | `learning/roadmap.md` | Study goals and priorities |
 | `learning/progress/*.md` | Observed results, gaps, mistakes, and next checks by subject |
 | `learning/sessions/*.md` | Historical evidence for a future timeline, topic map, or chart: completed-session reports and explicit dated corrections; format in `learning/sessions/README.md` |

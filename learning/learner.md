@@ -1,14 +1,25 @@
-# Learner profile
+# Профиль ученика
 
-> Initial context. Correct it as things get confirmed; do not treat it as a diagnosis of knowledge.
+Уточнён с согласия ученика 2026-10-25. Это предпочтения, планы и самоотчёт, **не проверка знаний**. Подробности и ограничения наблюдений: [итог интервью](interview-2026-10-25.md). Рабочие правила преподавания находятся в [AGENTS.md](../AGENTS.md).
 
-- Default language: Russian.
-- Background: experienced developer; has already studied university-level calculus and linear algebra.
-- Courses taken previously: Linear Algebra 1, Infinitesimal Calculus 1, Introduction to Statistics and Probability.
-- University plan (stated by the learner on 2026-10-24): start studying at the Open University of Israel in **March 2027**. First-semester courses: **Mechanics, Discrete Mathematics, and Python**.
-- Main priority until March 2027: study Michael Spivak's **Calculus, 4th edition**, and Sheldon Axler's **Linear Algebra Done Right, 3rd edition**, specifically to prepare for those courses. Preparation needs determine the scope; completing both books is not an assumed goal.
-- Lower-priority goals during the same period: study Dummit & Foote's **Abstract Algebra** and **number theory**. No priority order between these two subjects has been specified.
-- Local sources supplied on 2026-10-25: Dummit & Foote's **Abstract Algebra, 3rd edition**, and Kato, Kurokawa & Saito's **Number Theory 1: Fermat's Dream**, English translation by Masato Kuwata, AMS, volume 186, alongside the specified Spivak and Axler editions. Exact files and source limitations are recorded in [the library catalog](../library/README.md).
-- Longer-term goal: restore and deepen the mathematical foundation and then apply the knowledge in ML/AI.
-- Style: values rigorous explanations and solving problems independently; familiar with logic and quantifiers; does not currently plan separate preparatory work for discrete mathematics.
-- This entry contains **self-assessment and plans**, not the results of testing inside ai-disneyland.
+- Язык ответов — русский. Отдельные английские сообщения не означают просьбы сменить язык.
+- Опытный разработчик. Ранее изучал Linear Algebra 1, Infinitesimal Calculus 1, Introduction to Statistics and Probability. По собственному рассказу, сдал анализ в Технионе на 90 примерно 25 лет назад; дата приблизительная (раньше называл около 20 лет).
+- «Диснейленд» — важный образ исследования интересной и красивой математики вместе с партнёром. Нужны регулярное движение и понятная обратная связь, без требования сначала полностью закрыть все основы. Особенно увлечён теорией чисел.
+- Цель к **1 марта 2027** — хорошо подготовиться к механике и дискретной математике и хоть немного продвинуться в абстрактной алгебре и теории чисел. План первого семестра Открытого университета Израиля включает также Python; он не отменён. Подготовка остаётся главным приоритетом, фиксированного распределения между четырьмя математическими направлениями нет. Подробности — в [roadmap](roadmap.md).
+- Учебники: Spivak, *Calculus*, 4th edition; Axler, *Linear Algebra Done Right*, 3rd edition; Dummit & Foote, *Abstract Algebra*, 3rd edition; Kato, Kurokawa & Saito, *Number Theory 1: Fermat’s Dream*, перевод Masato Kuwata, AMS, том 186. Точные источники и ограничения — в [каталоге](../library/README.md).
+- Долгосрочная цель — восстановить и углубить математическую основу, затем применять её в ML/AI.
+
+## Текущий самоотчёт, не измеренное освоение
+
+- Анализ: считает, что знает многое. Линейную алгебру оценивает «примерно в 60%» — это субъективная формулировка, не измерение и не значение для графика владения.
+- Абстрактная алгебра: последовательно читает с начала, понемногу решает задачи, дошёл до подгрупп. Конкретные решения и номера не предъявлены, результаты не проверены.
+- Теория чисел: читал и обсуждал с AI интуитивно, на научно-популярном уровне; задач пока не решал. Знаком с идеями рациональных точек на эллиптических кривых и **p-адических** чисел. Знакомство с идеей не подтверждает владения темой.
+
+## Предпочтения и условия работы
+
+- Ценит строгость и самостоятельные попытки, присылает текст и фото, включая незавершённые решения. Хочет больше инициативы и конкретной обратной связи от агента; планирование и подбор помощи предпочитает делать вместе с ним, без больших самостоятельных планов.
+- Для нового материала предпочитает сначала доступное обсуждение смысла, затем упражнения; для знакомого — проверку имеющегося понимания. Считает ментальные модели полезными при ясных границах применимости. Старый образ «следующей точки» больше не использует.
+- Застревание на непонятном переходе раньше приводило к сильной самокритике и прекращению занятий. Разрешает агенту предлагать паузу и смену объяснения, проверяя своё предположение; при сильной самокритике просит мягко напоминать «обнять себя».
+- Предполагает у себя СДВГ (самоотчёт); о подтверждённом диагнозе не сообщал. Это не медицинское заключение и не установленная причина трудностей внимания/регулярности. Реальная регулярность ещё не наблюдалась. Надеется на поддержку совместных занятий.
+- Идеальный желаемый ритм: 4–5 дней в неделю, утром 2–2,5 часа, вечером около часа повторения. Это пожелание «в теории», не обязательство и не проверенная нагрузка. Посильный ритм предстоит выяснить; расписание и автоматизации не запрошены.
+- Прозвище «псих» в этой беседе относится к другу с PhD по математике, готовому обсуждать математику, и не обозначает терапевтическую роль; о других его профессиях ничего не известно. Можно предлагать конкретные вопросы для него; разрешения связываться с ним нет.
