@@ -12,7 +12,7 @@ The learner uses this repository on multiple machines. As explicitly requested o
 | `learning/learner.md` | Current concise learner profile, preferences, and stated plans; distinguish these from tested knowledge |
 | `learning/interview-2026-10-25.md` | Dated interview context and self-reports; not a lesson, diagnostic exam, or learning-statistics record |
 | `learning/roadmap.md` | Study goals and priorities |
-| `learning/progress/*.md` | Observed results, gaps, mistakes, and next checks by subject |
+| `learning/progress/*.md` | Current textbook routes, exercise states, observed results, gaps, and progress toward goals; rules and book-to-file map in `learning/progress/README.md` |
 | `learning/sessions/*.md` | Historical evidence for a future timeline, topic map, or chart: completed-session reports and explicit dated corrections; format in `learning/sessions/README.md` |
 | `library/README.md` | Catalog of exact textbook sources and how to access them |
 | `library/originals/` | Unchanged source PDFs, tracked through Git LFS |

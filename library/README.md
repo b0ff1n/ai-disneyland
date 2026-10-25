@@ -41,7 +41,7 @@ These examples require Poppler tools. Durable full-text extraction, useful OCR r
 
 ## Git LFS
 
-[Git LFS](https://git-lfs.com/) must be installed on each machine. For this checkout, its filters and hooks were configured with `git lfs install --local`; the repository's `.gitattributes` tracks everything under `library/originals/` as LFS data. Indexes, extraction, navigation metadata, and checksums remain ordinary Git text, available independently of downloading the LFS originals.
+[Git LFS](https://git-lfs.com/) must be installed and configured in each checkout; configuration on the machine where the books were added does not establish availability on another machine. The repository's `.gitattributes` tracks everything under `library/originals/` as LFS data. Indexes, extraction, navigation metadata, and checksums remain ordinary Git text, available independently of downloading the LFS originals.
 
 In a new checkout, after installing Git LFS, run from the repository root:
 
