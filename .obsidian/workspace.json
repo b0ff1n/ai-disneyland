@@ -185,8 +185,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "a2e8e346475dd084",
+  "active": "603beb7818ab26ab",
   "lastOpenFiles": [
+    "learning/progress/number-theory.md",
+    "learning/progress/abstract-algebra.md",
+    "learning/progress/README.md",
     "templates/session-note.md",
     "library/README.md",
     "library/indexes/dummit-foote-abstract-algebra-3e.md",
