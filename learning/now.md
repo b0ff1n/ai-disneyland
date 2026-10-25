@@ -1,16 +1,13 @@
 # Where we are now
 
-Updated: 2026-10-25 (learning-profile interview completed; no study lessons yet)
+Updated: 2026-10-25 (first study session completed).
 
-- **State:** the learner authorized updated teaching preferences in the [profile](learner.md) and [interview note](interview-2026-10-25.md). The interview is not a lesson or a diagnostic exam; no study sessions have been recorded.
-- **Main goal by 1 March 2027:** prepare well for mechanics and discrete mathematics. The first-semester plan also includes Python. Spivak and Axler are preparation resources; the concrete route still needs comparison with course requirements.
-- **Other goals:** make some progress in abstract algebra and number theory. No fixed time split or ordering between them has been chosen; preserve room for curiosity without a prerequisite-completion barrier. See [roadmap](roadmap.md).
-- **Textbook sources:** exact PDFs, editions and page maps are in [the library catalog](../library/README.md); persistent extraction is in [library/extracted/](../library/extracted/README.md). Verify original pages before textbook-specific work.
-- **External memory:** [MEMORY.md](../MEMORY.md); historical lessons use [the session archive rules](sessions/README.md).
-- **Current textbook route:** no active book/chapter has been selected for sessions yet. Separate stopping points, exercise states, and verified results belong in the [subject progress files](progress/README.md). The abstract-algebra reading position is currently only a self-report.
-- **Progress toward the March goal:** cannot yet assess whether preparation is on schedule: the necessary course scope and an observed study pace are not established. No numerical readiness estimate is supported.
-- **Next action:** begin the first lesson with a concrete, small next step proposed by the agent from the profile and preparation goals, with a short reason and room for the learner to redirect. For familiar material check existing understanding; for new material begin with accessible discussion, then an exercise. Do not repeat the interview or require the learner to design the plan.
-- **Last session:** none.
-- **Open questions:** actual independent understanding, a sustainable rhythm, and how preparation maps to the course requirements; none should be inferred from self-ratings or the ideal schedule.
-
-Keep this entry point short. Detailed preferences and interview context are linked above; actual learning evidence belongs in `progress/` and `sessions/`.
+- **Main goal by 1 March 2027:** prepare for mechanics and discrete mathematics; the first-semester plan also includes Python. Spivak and Axler are preparation resources; course requirements still need comparison. See [roadmap](roadmap.md).
+- **Other goals:** some progress in abstract algebra and number theory, with room for curiosity and no fixed time split. These priorities are unchanged.
+- **Active route:** Spivak, *Calculus*, 4th edition (`spivak-calculus-4e`), chapter 1, Basic Properties of Numbers. The chapter is not complete. [Current exercise states and evidence](progress/calculus.md).
+- **Latest result:** exercise 6(a) was explained in full; afterwards the learner independently constructed an alternative induction step through xy^n, with correct strict/non-strict signs. This verifies transfer after explanation, not independent mastery of the original proof or all induction.
+- **Next action:** resume exercise 19(c), chosen at the learner's request for a more interesting task with geometric meaning. Inequality: printed p. 17 / PDF p. 36; part (c): printed p. 18 / PDF p. 37. No solution submitted yet. Discuss its geometric meaning after an attempt.
+- **Return point:** chapter 1, exercise 6(b), printed p. 14 / PDF p. 33; (b–c) remain unfinished, (d) unattempted. Exercises 12(v–vii) and 18(d) also remain unattempted. Details in the subject progress file; other books' stopping points are unchanged.
+- **Last session:** [2026-10-25 — induction and inequalities](sessions/2026-10-25-spivak-induction-inequalities.md). Actual duration was not reported; the initial two hours were available time only.
+- **Progress toward March:** cannot yet assess schedule readiness: required course scope and a stable observed pace are unknown. No numerical mastery estimate is supported.
+- **Sources and memory:** [library catalog](../library/README.md), [tracked extraction](../library/extracted/README.md), [storage rules](../MEMORY.md). Verify original PDF pages before textbook work. Teaching preferences remain in [the profile](learner.md).
