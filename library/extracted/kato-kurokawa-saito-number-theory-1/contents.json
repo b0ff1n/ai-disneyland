@@ -1,0 +1,266 @@
+[
+  {
+    "entry": "0",
+    "title": "Introduction - Fermat and Number Theory",
+    "printed": 1,
+    "pdf": 10
+  },
+  {
+    "entry": "0.1",
+    "title": "Before Fermat",
+    "printed": 1,
+    "pdf": 10
+  },
+  {
+    "entry": "0.2",
+    "title": "Prime numbers and the sum of two squares",
+    "printed": 4,
+    "pdf": 13
+  },
+  {
+    "entry": "0.3",
+    "title": "p = x² + 2y², p = x² + 3y², ...",
+    "printed": 6,
+    "pdf": 15
+  },
+  {
+    "entry": "0.4",
+    "title": "Pell's equations",
+    "printed": 7,
+    "pdf": 16
+  },
+  {
+    "entry": "0.5",
+    "title": "Triangular numbers, quadrangular numbers, pentagonal numbers",
+    "printed": 8,
+    "pdf": 17
+  },
+  {
+    "entry": "0.6",
+    "title": "Triangular numbers, squares, cubes",
+    "printed": 10,
+    "pdf": 19
+  },
+  {
+    "entry": "0.7",
+    "title": "Right triangles and elliptic curves",
+    "printed": 11,
+    "pdf": 20
+  },
+  {
+    "entry": "0.8",
+    "title": "Fermat's Last Theorem",
+    "printed": 12,
+    "pdf": 21
+  },
+  {
+    "entry": "Exercises 0",
+    "title": "Exercises",
+    "printed": 14,
+    "pdf": 23
+  },
+  {
+    "entry": "1",
+    "title": "Rational Points on Elliptic Curves",
+    "printed": 17,
+    "pdf": 25
+  },
+  {
+    "entry": "1.1",
+    "title": "Fermat and elliptic curves",
+    "printed": 17,
+    "pdf": 25
+  },
+  {
+    "entry": "1.2",
+    "title": "Group structure of an elliptic curve",
+    "printed": 25,
+    "pdf": 33
+  },
+  {
+    "entry": "1.3",
+    "title": "Mordell's theorem",
+    "printed": 30,
+    "pdf": 38
+  },
+  {
+    "entry": "Summary 1",
+    "title": "Summary",
+    "printed": 43,
+    "pdf": 51
+  },
+  {
+    "entry": "Exercises 1",
+    "title": "Exercises",
+    "printed": 43,
+    "pdf": 51
+  },
+  {
+    "entry": "2",
+    "title": "Conics and p-adic Numbers",
+    "printed": 45,
+    "pdf": 53
+  },
+  {
+    "entry": "2.1",
+    "title": "Conics",
+    "printed": 45,
+    "pdf": 53
+  },
+  {
+    "entry": "2.2",
+    "title": "Congruence",
+    "printed": 49,
+    "pdf": 57
+  },
+  {
+    "entry": "2.3",
+    "title": "Conics and quadratic residue symbols",
+    "printed": 53,
+    "pdf": 61
+  },
+  {
+    "entry": "2.4",
+    "title": "p-adic number fields",
+    "printed": 58,
+    "pdf": 66
+  },
+  {
+    "entry": "2.5",
+    "title": "Multiplicative structure of the p-adic number field",
+    "printed": 69,
+    "pdf": 77
+  },
+  {
+    "entry": "2.6",
+    "title": "Rational points on conics",
+    "printed": 74,
+    "pdf": 82
+  },
+  {
+    "entry": "Summary 2",
+    "title": "Summary",
+    "printed": 78,
+    "pdf": 86
+  },
+  {
+    "entry": "Exercises 2",
+    "title": "Exercises",
+    "printed": 78,
+    "pdf": 86
+  },
+  {
+    "entry": "3",
+    "title": "ζ",
+    "printed": 81,
+    "pdf": 88
+  },
+  {
+    "entry": "3.1",
+    "title": "Three wonders of the values of the ζ function",
+    "printed": 81,
+    "pdf": 88
+  },
+  {
+    "entry": "3.2",
+    "title": "Values at positive integers",
+    "printed": 84,
+    "pdf": 91
+  },
+  {
+    "entry": "3.3",
+    "title": "Values at negative integers",
+    "printed": 89,
+    "pdf": 96
+  },
+  {
+    "entry": "Summary 3",
+    "title": "Summary",
+    "printed": 99,
+    "pdf": 106
+  },
+  {
+    "entry": "Exercises 3",
+    "title": "Exercises",
+    "printed": 100,
+    "pdf": 107
+  },
+  {
+    "entry": "4",
+    "title": "Algebraic Number Theory",
+    "printed": 103,
+    "pdf": 109
+  },
+  {
+    "entry": "4.1",
+    "title": "Method of algebraic number theory",
+    "printed": 104,
+    "pdf": 110
+  },
+  {
+    "entry": "4.2",
+    "title": "The heart of algebraic number theory",
+    "printed": 113,
+    "pdf": 119
+  },
+  {
+    "entry": "4.3",
+    "title": "The class number formula for imaginary quadratic fields",
+    "printed": 124,
+    "pdf": 130
+  },
+  {
+    "entry": "4.4",
+    "title": "Fermat's Last Theorem and Kummer",
+    "printed": 127,
+    "pdf": 133
+  },
+  {
+    "entry": "Summary 4",
+    "title": "Summary",
+    "printed": 132,
+    "pdf": 138
+  },
+  {
+    "entry": "Exercises 4",
+    "title": "Exercises",
+    "printed": 132,
+    "pdf": 138
+  },
+  {
+    "entry": "Appendix A",
+    "title": "Rudiments on Dedekind domains",
+    "printed": 135,
+    "pdf": 140
+  },
+  {
+    "entry": "A.1",
+    "title": "Definition of a Dedekind domain",
+    "printed": 135,
+    "pdf": 140
+  },
+  {
+    "entry": "A.2",
+    "title": "Fractional ideal",
+    "printed": 136,
+    "pdf": 141
+  },
+  {
+    "entry": "Back matter",
+    "title": "Answers to Questions",
+    "printed": 139,
+    "pdf": 143
+  },
+  {
+    "entry": "Back matter",
+    "title": "Answers to Exercises",
+    "printed": 145,
+    "pdf": 148
+  },
+  {
+    "entry": "Back matter",
+    "title": "Index",
+    "printed": 153,
+    "pdf": 156
+  }
+]

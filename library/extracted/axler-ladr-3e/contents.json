@@ -1,0 +1,890 @@
+[
+  {
+    "entry": "1",
+    "title": "Vector Spaces",
+    "printed": 1,
+    "pdf": 18
+  },
+  {
+    "entry": "1.A",
+    "title": "ℝⁿ and ℂⁿ",
+    "printed": 2,
+    "pdf": 19
+  },
+  {
+    "entry": "-",
+    "title": "Complex Numbers",
+    "printed": 2,
+    "pdf": 19
+  },
+  {
+    "entry": "-",
+    "title": "Lists",
+    "printed": 5,
+    "pdf": 22
+  },
+  {
+    "entry": "-",
+    "title": "𝔽ⁿ",
+    "printed": 6,
+    "pdf": 23
+  },
+  {
+    "entry": "-",
+    "title": "Digression on Fields",
+    "printed": 10,
+    "pdf": 27
+  },
+  {
+    "entry": "Exercises 1.A",
+    "title": "Exercises",
+    "printed": 11,
+    "pdf": 28
+  },
+  {
+    "entry": "1.B",
+    "title": "Definition of Vector Space",
+    "printed": 12,
+    "pdf": 29
+  },
+  {
+    "entry": "Exercises 1.B",
+    "title": "Exercises",
+    "printed": 17,
+    "pdf": 34
+  },
+  {
+    "entry": "1.C",
+    "title": "Subspaces",
+    "printed": 18,
+    "pdf": 35
+  },
+  {
+    "entry": "-",
+    "title": "Sums of Subspaces",
+    "printed": 20,
+    "pdf": 37
+  },
+  {
+    "entry": "-",
+    "title": "Direct Sums",
+    "printed": 21,
+    "pdf": 38
+  },
+  {
+    "entry": "Exercises 1.C",
+    "title": "Exercises",
+    "printed": 24,
+    "pdf": 41
+  },
+  {
+    "entry": "2",
+    "title": "Finite-Dimensional Vector Spaces",
+    "printed": 27,
+    "pdf": 44
+  },
+  {
+    "entry": "2.A",
+    "title": "Span and Linear Independence",
+    "printed": 28,
+    "pdf": 45
+  },
+  {
+    "entry": "-",
+    "title": "Linear Combinations and Span",
+    "printed": 28,
+    "pdf": 45
+  },
+  {
+    "entry": "-",
+    "title": "Linear Independence",
+    "printed": 32,
+    "pdf": 49
+  },
+  {
+    "entry": "Exercises 2.A",
+    "title": "Exercises",
+    "printed": 37,
+    "pdf": 54
+  },
+  {
+    "entry": "2.B",
+    "title": "Bases",
+    "printed": 39,
+    "pdf": 56
+  },
+  {
+    "entry": "Exercises 2.B",
+    "title": "Exercises",
+    "printed": 43,
+    "pdf": 60
+  },
+  {
+    "entry": "2.C",
+    "title": "Dimension",
+    "printed": 44,
+    "pdf": 61
+  },
+  {
+    "entry": "Exercises 2.C",
+    "title": "Exercises",
+    "printed": 48,
+    "pdf": 65
+  },
+  {
+    "entry": "3",
+    "title": "Linear Maps",
+    "printed": 51,
+    "pdf": 67
+  },
+  {
+    "entry": "3.A",
+    "title": "The Vector Space of Linear Maps",
+    "printed": 52,
+    "pdf": 68
+  },
+  {
+    "entry": "-",
+    "title": "Definition and Examples of Linear Maps",
+    "printed": 52,
+    "pdf": 68
+  },
+  {
+    "entry": "-",
+    "title": "Algebraic Operations on L(V, W)",
+    "printed": 55,
+    "pdf": 71
+  },
+  {
+    "entry": "Exercises 3.A",
+    "title": "Exercises",
+    "printed": 57,
+    "pdf": 73
+  },
+  {
+    "entry": "3.B",
+    "title": "Null Spaces and Ranges",
+    "printed": 59,
+    "pdf": 75
+  },
+  {
+    "entry": "-",
+    "title": "Null Space and Injectivity",
+    "printed": 59,
+    "pdf": 75
+  },
+  {
+    "entry": "-",
+    "title": "Range and Surjectivity",
+    "printed": 61,
+    "pdf": 77
+  },
+  {
+    "entry": "-",
+    "title": "Fundamental Theorem of Linear Maps",
+    "printed": 63,
+    "pdf": 79
+  },
+  {
+    "entry": "Exercises 3.B",
+    "title": "Exercises",
+    "printed": 67,
+    "pdf": 83
+  },
+  {
+    "entry": "3.C",
+    "title": "Matrices",
+    "printed": 70,
+    "pdf": 86
+  },
+  {
+    "entry": "-",
+    "title": "Representing a Linear Map by a Matrix",
+    "printed": 70,
+    "pdf": 86
+  },
+  {
+    "entry": "-",
+    "title": "Addition and Scalar Multiplication of Matrices",
+    "printed": 72,
+    "pdf": 88
+  },
+  {
+    "entry": "-",
+    "title": "Matrix Multiplication",
+    "printed": 74,
+    "pdf": 90
+  },
+  {
+    "entry": "Exercises 3.C",
+    "title": "Exercises",
+    "printed": 78,
+    "pdf": 94
+  },
+  {
+    "entry": "3.D",
+    "title": "Invertibility and Isomorphic Vector Spaces",
+    "printed": 80,
+    "pdf": 96
+  },
+  {
+    "entry": "-",
+    "title": "Invertible Linear Maps",
+    "printed": 80,
+    "pdf": 96
+  },
+  {
+    "entry": "-",
+    "title": "Isomorphic Vector Spaces",
+    "printed": 82,
+    "pdf": 98
+  },
+  {
+    "entry": "-",
+    "title": "Linear Maps Thought of as Matrix Multiplication",
+    "printed": 84,
+    "pdf": 100
+  },
+  {
+    "entry": "-",
+    "title": "Operators",
+    "printed": 86,
+    "pdf": 102
+  },
+  {
+    "entry": "Exercises 3.D",
+    "title": "Exercises",
+    "printed": 88,
+    "pdf": 104
+  },
+  {
+    "entry": "3.E",
+    "title": "Products and Quotients of Vector Spaces",
+    "printed": 91,
+    "pdf": 107
+  },
+  {
+    "entry": "-",
+    "title": "Products of Vector Spaces",
+    "printed": 91,
+    "pdf": 107
+  },
+  {
+    "entry": "-",
+    "title": "Products and Direct Sums",
+    "printed": 93,
+    "pdf": 109
+  },
+  {
+    "entry": "-",
+    "title": "Quotients of Vector Spaces",
+    "printed": 94,
+    "pdf": 110
+  },
+  {
+    "entry": "Exercises 3.E",
+    "title": "Exercises",
+    "printed": 98,
+    "pdf": 114
+  },
+  {
+    "entry": "3.F",
+    "title": "Duality",
+    "printed": 101,
+    "pdf": 117
+  },
+  {
+    "entry": "-",
+    "title": "The Dual Space and the Dual Map",
+    "printed": 101,
+    "pdf": 117
+  },
+  {
+    "entry": "-",
+    "title": "The Null Space and Range of the Dual of a Linear Map",
+    "printed": 104,
+    "pdf": 120
+  },
+  {
+    "entry": "-",
+    "title": "The Matrix of the Dual of a Linear Map",
+    "printed": 109,
+    "pdf": 125
+  },
+  {
+    "entry": "-",
+    "title": "The Rank of a Matrix",
+    "printed": 111,
+    "pdf": 127
+  },
+  {
+    "entry": "Exercises 3.F",
+    "title": "Exercises",
+    "printed": 113,
+    "pdf": 129
+  },
+  {
+    "entry": "4",
+    "title": "Polynomials",
+    "printed": 117,
+    "pdf": 133
+  },
+  {
+    "entry": "-",
+    "title": "Complex Conjugate and Absolute Value",
+    "printed": 118,
+    "pdf": 134
+  },
+  {
+    "entry": "-",
+    "title": "Uniqueness of Coefficients for Polynomials",
+    "printed": 120,
+    "pdf": 136
+  },
+  {
+    "entry": "-",
+    "title": "The Division Algorithm for Polynomials",
+    "printed": 121,
+    "pdf": 137
+  },
+  {
+    "entry": "-",
+    "title": "Zeros of Polynomials",
+    "printed": 122,
+    "pdf": 138
+  },
+  {
+    "entry": "-",
+    "title": "Factorization of Polynomials over ℂ",
+    "printed": 123,
+    "pdf": 139
+  },
+  {
+    "entry": "-",
+    "title": "Factorization of Polynomials over ℝ",
+    "printed": 126,
+    "pdf": 142
+  },
+  {
+    "entry": "Exercises 4",
+    "title": "Exercises",
+    "printed": 129,
+    "pdf": 145
+  },
+  {
+    "entry": "5",
+    "title": "Eigenvalues, Eigenvectors, and Invariant Subspaces",
+    "printed": 131,
+    "pdf": 147
+  },
+  {
+    "entry": "5.A",
+    "title": "Invariant Subspaces",
+    "printed": 132,
+    "pdf": 148
+  },
+  {
+    "entry": "-",
+    "title": "Eigenvalues and Eigenvectors",
+    "printed": 133,
+    "pdf": 149
+  },
+  {
+    "entry": "-",
+    "title": "Restriction and Quotient Operators",
+    "printed": 137,
+    "pdf": 153
+  },
+  {
+    "entry": "Exercises 5.A",
+    "title": "Exercises",
+    "printed": 138,
+    "pdf": 154
+  },
+  {
+    "entry": "5.B",
+    "title": "Eigenvectors and Upper-Triangular Matrices",
+    "printed": 143,
+    "pdf": 159
+  },
+  {
+    "entry": "-",
+    "title": "Polynomials Applied to Operators",
+    "printed": 143,
+    "pdf": 159
+  },
+  {
+    "entry": "-",
+    "title": "Existence of Eigenvalues",
+    "printed": 145,
+    "pdf": 161
+  },
+  {
+    "entry": "-",
+    "title": "Upper-Triangular Matrices",
+    "printed": 146,
+    "pdf": 162
+  },
+  {
+    "entry": "Exercises 5.B",
+    "title": "Exercises",
+    "printed": 153,
+    "pdf": 169
+  },
+  {
+    "entry": "5.C",
+    "title": "Eigenspaces and Diagonal Matrices",
+    "printed": 155,
+    "pdf": 171
+  },
+  {
+    "entry": "Exercises 5.C",
+    "title": "Exercises",
+    "printed": 160,
+    "pdf": 176
+  },
+  {
+    "entry": "6",
+    "title": "Inner Product Spaces",
+    "printed": 163,
+    "pdf": 178
+  },
+  {
+    "entry": "6.A",
+    "title": "Inner Products and Norms",
+    "printed": 164,
+    "pdf": 179
+  },
+  {
+    "entry": "-",
+    "title": "Inner Products",
+    "printed": 164,
+    "pdf": 179
+  },
+  {
+    "entry": "-",
+    "title": "Norms",
+    "printed": 168,
+    "pdf": 183
+  },
+  {
+    "entry": "Exercises 6.A",
+    "title": "Exercises",
+    "printed": 175,
+    "pdf": 190
+  },
+  {
+    "entry": "6.B",
+    "title": "Orthonormal Bases",
+    "printed": 180,
+    "pdf": 195
+  },
+  {
+    "entry": "-",
+    "title": "Linear Functionals on Inner Product Spaces",
+    "printed": 187,
+    "pdf": 202
+  },
+  {
+    "entry": "Exercises 6.B",
+    "title": "Exercises",
+    "printed": 189,
+    "pdf": 204
+  },
+  {
+    "entry": "6.C",
+    "title": "Orthogonal Complements and Minimization Problems",
+    "printed": 193,
+    "pdf": 208
+  },
+  {
+    "entry": "-",
+    "title": "Orthogonal Complements",
+    "printed": 193,
+    "pdf": 208
+  },
+  {
+    "entry": "-",
+    "title": "Minimization Problems",
+    "printed": 198,
+    "pdf": 213
+  },
+  {
+    "entry": "Exercises 6.C",
+    "title": "Exercises",
+    "printed": 201,
+    "pdf": 216
+  },
+  {
+    "entry": "7",
+    "title": "Operators on Inner Product Spaces",
+    "printed": 203,
+    "pdf": 218
+  },
+  {
+    "entry": "7.A",
+    "title": "Self-Adjoint and Normal Operators",
+    "printed": 204,
+    "pdf": 219
+  },
+  {
+    "entry": "-",
+    "title": "Adjoints",
+    "printed": 204,
+    "pdf": 219
+  },
+  {
+    "entry": "-",
+    "title": "Self-Adjoint Operators",
+    "printed": 209,
+    "pdf": 224
+  },
+  {
+    "entry": "-",
+    "title": "Normal Operators",
+    "printed": 212,
+    "pdf": 227
+  },
+  {
+    "entry": "Exercises 7.A",
+    "title": "Exercises",
+    "printed": 214,
+    "pdf": 229
+  },
+  {
+    "entry": "7.B",
+    "title": "The Spectral Theorem",
+    "printed": 217,
+    "pdf": 232
+  },
+  {
+    "entry": "-",
+    "title": "The Complex Spectral Theorem",
+    "printed": 217,
+    "pdf": 232
+  },
+  {
+    "entry": "-",
+    "title": "The Real Spectral Theorem",
+    "printed": 219,
+    "pdf": 234
+  },
+  {
+    "entry": "Exercises 7.B",
+    "title": "Exercises",
+    "printed": 223,
+    "pdf": 238
+  },
+  {
+    "entry": "7.C",
+    "title": "Positive Operators and Isometries",
+    "printed": 225,
+    "pdf": 240
+  },
+  {
+    "entry": "-",
+    "title": "Positive Operators",
+    "printed": 225,
+    "pdf": 240
+  },
+  {
+    "entry": "-",
+    "title": "Isometries",
+    "printed": 228,
+    "pdf": 243
+  },
+  {
+    "entry": "Exercises 7.C",
+    "title": "Exercises",
+    "printed": 231,
+    "pdf": 246
+  },
+  {
+    "entry": "7.D",
+    "title": "Polar Decomposition and Singular Value Decomposition",
+    "printed": 233,
+    "pdf": 248
+  },
+  {
+    "entry": "-",
+    "title": "Polar Decomposition",
+    "printed": 233,
+    "pdf": 248
+  },
+  {
+    "entry": "-",
+    "title": "Singular Value Decomposition",
+    "printed": 236,
+    "pdf": 251
+  },
+  {
+    "entry": "Exercises 7.D",
+    "title": "Exercises",
+    "printed": 238,
+    "pdf": 253
+  },
+  {
+    "entry": "8",
+    "title": "Operators on Complex Vector Spaces",
+    "printed": 241,
+    "pdf": 256
+  },
+  {
+    "entry": "8.A",
+    "title": "Generalized Eigenvectors and Nilpotent Operators",
+    "printed": 242,
+    "pdf": 257
+  },
+  {
+    "entry": "-",
+    "title": "Null Spaces of Powers of an Operator",
+    "printed": 242,
+    "pdf": 257
+  },
+  {
+    "entry": "-",
+    "title": "Generalized Eigenvectors",
+    "printed": 244,
+    "pdf": 259
+  },
+  {
+    "entry": "-",
+    "title": "Nilpotent Operators",
+    "printed": 248,
+    "pdf": 263
+  },
+  {
+    "entry": "Exercises 8.A",
+    "title": "Exercises",
+    "printed": 249,
+    "pdf": 264
+  },
+  {
+    "entry": "8.B",
+    "title": "Decomposition of an Operator",
+    "printed": 252,
+    "pdf": 267
+  },
+  {
+    "entry": "-",
+    "title": "Description of Operators on Complex Vector Spaces",
+    "printed": 252,
+    "pdf": 267
+  },
+  {
+    "entry": "-",
+    "title": "Multiplicity of an Eigenvalue",
+    "printed": 254,
+    "pdf": 269
+  },
+  {
+    "entry": "-",
+    "title": "Block Diagonal Matrices",
+    "printed": 255,
+    "pdf": 270
+  },
+  {
+    "entry": "-",
+    "title": "Square Roots",
+    "printed": 258,
+    "pdf": 273
+  },
+  {
+    "entry": "Exercises 8.B",
+    "title": "Exercises",
+    "printed": 259,
+    "pdf": 274
+  },
+  {
+    "entry": "8.C",
+    "title": "Characteristic and Minimal Polynomials",
+    "printed": 261,
+    "pdf": 276
+  },
+  {
+    "entry": "-",
+    "title": "The Cayley–Hamilton Theorem",
+    "printed": 261,
+    "pdf": 276
+  },
+  {
+    "entry": "-",
+    "title": "The Minimal Polynomial",
+    "printed": 262,
+    "pdf": 277
+  },
+  {
+    "entry": "Exercises 8.C",
+    "title": "Exercises",
+    "printed": 267,
+    "pdf": 282
+  },
+  {
+    "entry": "8.D",
+    "title": "Jordan Form",
+    "printed": 270,
+    "pdf": 285
+  },
+  {
+    "entry": "Exercises 8.D",
+    "title": "Exercises",
+    "printed": 274,
+    "pdf": 289
+  },
+  {
+    "entry": "9",
+    "title": "Operators on Real Vector Spaces",
+    "printed": 275,
+    "pdf": 290
+  },
+  {
+    "entry": "9.A",
+    "title": "Complexification",
+    "printed": 276,
+    "pdf": 291
+  },
+  {
+    "entry": "-",
+    "title": "Complexification of a Vector Space",
+    "printed": 276,
+    "pdf": 291
+  },
+  {
+    "entry": "-",
+    "title": "Complexification of an Operator",
+    "printed": 277,
+    "pdf": 292
+  },
+  {
+    "entry": "-",
+    "title": "The Minimal Polynomial of the Complexification",
+    "printed": 279,
+    "pdf": 294
+  },
+  {
+    "entry": "-",
+    "title": "Eigenvalues of the Complexification",
+    "printed": 280,
+    "pdf": 295
+  },
+  {
+    "entry": "-",
+    "title": "Characteristic Polynomial of the Complexification",
+    "printed": 283,
+    "pdf": 298
+  },
+  {
+    "entry": "Exercises 9.A",
+    "title": "Exercises",
+    "printed": 285,
+    "pdf": 300
+  },
+  {
+    "entry": "9.B",
+    "title": "Operators on Real Inner Product Spaces",
+    "printed": 287,
+    "pdf": 302
+  },
+  {
+    "entry": "-",
+    "title": "Normal Operators on Real Inner Product Spaces",
+    "printed": 287,
+    "pdf": 302
+  },
+  {
+    "entry": "-",
+    "title": "Isometries on Real Inner Product Spaces",
+    "printed": 292,
+    "pdf": 307
+  },
+  {
+    "entry": "Exercises 9.B",
+    "title": "Exercises",
+    "printed": 294,
+    "pdf": 309
+  },
+  {
+    "entry": "10",
+    "title": "Trace and Determinant",
+    "printed": 295,
+    "pdf": 310
+  },
+  {
+    "entry": "10.A",
+    "title": "Trace",
+    "printed": 296,
+    "pdf": 311
+  },
+  {
+    "entry": "-",
+    "title": "Change of Basis",
+    "printed": 296,
+    "pdf": 311
+  },
+  {
+    "entry": "-",
+    "title": "Trace: A Connection Between Operators and Matrices",
+    "printed": 299,
+    "pdf": 314
+  },
+  {
+    "entry": "Exercises 10.A",
+    "title": "Exercises",
+    "printed": 304,
+    "pdf": 319
+  },
+  {
+    "entry": "10.B",
+    "title": "Determinant",
+    "printed": 307,
+    "pdf": 322
+  },
+  {
+    "entry": "-",
+    "title": "Determinant of an Operator",
+    "printed": 307,
+    "pdf": 322
+  },
+  {
+    "entry": "-",
+    "title": "Determinant of a Matrix",
+    "printed": 309,
+    "pdf": 324
+  },
+  {
+    "entry": "-",
+    "title": "The Sign of the Determinant",
+    "printed": 320,
+    "pdf": 335
+  },
+  {
+    "entry": "-",
+    "title": "Volume",
+    "printed": 323,
+    "pdf": 338
+  },
+  {
+    "entry": "Exercises 10.B",
+    "title": "Exercises",
+    "printed": 330,
+    "pdf": 345
+  },
+  {
+    "entry": "-",
+    "title": "Photo Credits",
+    "printed": 333,
+    "pdf": 347
+  },
+  {
+    "entry": "-",
+    "title": "Symbol Index",
+    "printed": 335,
+    "pdf": 348
+  },
+  {
+    "entry": "-",
+    "title": "Index",
+    "printed": 337,
+    "pdf": 349
+  }
+]

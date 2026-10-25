@@ -4,6 +4,7 @@ Indexed from the supplied file on 2026-10-25.
 
 - **Book ID:** `dummit-foote-abstract-algebra-3e`.
 - **Source:** [original PDF](../originals/David_S_Dummit_Richard_M_Foote_Abstract_Algeb_230928_225848.pdf).
+- **Saved extraction:** [full text](../extracted/dummit-foote-abstract-algebra-3e/full.txt); [formats and navigation](../extracted/README.md).
 - **Edition evidence:** Third edition, John Wiley & Sons, 2004. ISBN 0-471-43334-9; the copyright page also lists WIE 0-471-45234-3. Title: PDF 5; copyright and ISBN: PDF 6.
 - **File:** 947 PDF pages; 37,002,369 bytes.
 - **SHA-256:** `3367d9ea25c6d6ce658fbabf4e425e2b5b66374ecfcf88c39202b56193e1e526` (also in [SHA256SUMS](../SHA256SUMS)).

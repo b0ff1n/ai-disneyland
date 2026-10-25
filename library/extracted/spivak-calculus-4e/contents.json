@@ -1,0 +1,290 @@
+[
+  {
+    "entry": "Part I",
+    "title": "Prologue",
+    "printed": null,
+    "pdf": 19
+  },
+  {
+    "entry": "1",
+    "title": "Basic Properties of Numbers",
+    "printed": 3,
+    "pdf": 22
+  },
+  {
+    "entry": "2",
+    "title": "Numbers of Various Sorts",
+    "printed": 21,
+    "pdf": 40
+  },
+  {
+    "entry": "Part II",
+    "title": "Foundations",
+    "printed": null,
+    "pdf": 56
+  },
+  {
+    "entry": "3",
+    "title": "Functions",
+    "printed": 39,
+    "pdf": 58
+  },
+  {
+    "entry": "Appendix to 3",
+    "title": "Ordered Pairs",
+    "printed": 54,
+    "pdf": 73
+  },
+  {
+    "entry": "4",
+    "title": "Graphs",
+    "printed": 56,
+    "pdf": 75
+  },
+  {
+    "entry": "Appendix 1 to 4",
+    "title": "Vectors",
+    "printed": 75,
+    "pdf": 94
+  },
+  {
+    "entry": "Appendix 2 to 4",
+    "title": "The Conic Sections",
+    "printed": 80,
+    "pdf": 99
+  },
+  {
+    "entry": "Appendix 3 to 4",
+    "title": "Polar Coordinates",
+    "printed": 84,
+    "pdf": 103
+  },
+  {
+    "entry": "5",
+    "title": "Limits",
+    "printed": 90,
+    "pdf": 109
+  },
+  {
+    "entry": "6",
+    "title": "Continuous Functions",
+    "printed": 115,
+    "pdf": 134
+  },
+  {
+    "entry": "7",
+    "title": "Three Hard Theorems",
+    "printed": 122,
+    "pdf": 141
+  },
+  {
+    "entry": "8",
+    "title": "Least Upper Bounds",
+    "printed": 133,
+    "pdf": 152
+  },
+  {
+    "entry": "Appendix to 8",
+    "title": "Uniform Continuity",
+    "printed": 144,
+    "pdf": 163
+  },
+  {
+    "entry": "Part III",
+    "title": "Derivatives and Integrals",
+    "printed": null,
+    "pdf": 166
+  },
+  {
+    "entry": "9",
+    "title": "Derivatives",
+    "printed": 149,
+    "pdf": 168
+  },
+  {
+    "entry": "10",
+    "title": "Differentiation",
+    "printed": 168,
+    "pdf": 187
+  },
+  {
+    "entry": "11",
+    "title": "Significance of the Derivative",
+    "printed": 188,
+    "pdf": 207
+  },
+  {
+    "entry": "Appendix to 11",
+    "title": "Convexity and Concavity",
+    "printed": 219,
+    "pdf": 238
+  },
+  {
+    "entry": "12",
+    "title": "Inverse Functions",
+    "printed": 230,
+    "pdf": 249
+  },
+  {
+    "entry": "Appendix to 12",
+    "title": "Parametric Representation of Curves",
+    "printed": 244,
+    "pdf": 263
+  },
+  {
+    "entry": "13",
+    "title": "Integrals",
+    "printed": 253,
+    "pdf": 272
+  },
+  {
+    "entry": "Appendix to 13",
+    "title": "Riemann Sums",
+    "printed": 282,
+    "pdf": 301
+  },
+  {
+    "entry": "14",
+    "title": "The Fundamental Theorem of Calculus",
+    "printed": 285,
+    "pdf": 304
+  },
+  {
+    "entry": "15",
+    "title": "The Trigonometric Functions",
+    "printed": 303,
+    "pdf": 322
+  },
+  {
+    "entry": "16*",
+    "title": "π is Irrational",
+    "printed": 324,
+    "pdf": 343
+  },
+  {
+    "entry": "17*",
+    "title": "Planetary Motion",
+    "printed": 330,
+    "pdf": 349
+  },
+  {
+    "entry": "18",
+    "title": "The Logarithm and Exponential Functions",
+    "printed": 339,
+    "pdf": 358
+  },
+  {
+    "entry": "19",
+    "title": "Integration in Elementary Terms",
+    "printed": 363,
+    "pdf": 382
+  },
+  {
+    "entry": "Appendix to 19",
+    "title": "The Cosmopolitan Integral",
+    "printed": 402,
+    "pdf": 421
+  },
+  {
+    "entry": "Part IV",
+    "title": "Infinite Sequences and Infinite Series",
+    "printed": null,
+    "pdf": 427
+  },
+  {
+    "entry": "20",
+    "title": "Approximation by Polynomial Functions",
+    "printed": 411,
+    "pdf": 430
+  },
+  {
+    "entry": "21*",
+    "title": "e is Transcendental",
+    "printed": 442,
+    "pdf": 461
+  },
+  {
+    "entry": "22",
+    "title": "Infinite Sequences",
+    "printed": 452,
+    "pdf": 471
+  },
+  {
+    "entry": "23",
+    "title": "Infinite Series",
+    "printed": 471,
+    "pdf": 490
+  },
+  {
+    "entry": "24",
+    "title": "Uniform Convergence and Power Series",
+    "printed": 499,
+    "pdf": 518
+  },
+  {
+    "entry": "25",
+    "title": "Complex Numbers",
+    "printed": 526,
+    "pdf": 545
+  },
+  {
+    "entry": "26",
+    "title": "Complex Functions",
+    "printed": 541,
+    "pdf": 560
+  },
+  {
+    "entry": "27",
+    "title": "Complex Power Series",
+    "printed": 555,
+    "pdf": 574
+  },
+  {
+    "entry": "Part V",
+    "title": "Epilogue",
+    "printed": null,
+    "pdf": 598
+  },
+  {
+    "entry": "28",
+    "title": "Fields",
+    "printed": 581,
+    "pdf": 600
+  },
+  {
+    "entry": "29",
+    "title": "Construction of the Real Numbers",
+    "printed": 588,
+    "pdf": 607
+  },
+  {
+    "entry": "30",
+    "title": "Uniqueness of the Real Numbers",
+    "printed": 601,
+    "pdf": 620
+  },
+  {
+    "entry": "Back matter",
+    "title": "Suggested Reading",
+    "printed": 609,
+    "pdf": 628
+  },
+  {
+    "entry": "Back matter",
+    "title": "Answers (to selected problems)",
+    "printed": 619,
+    "pdf": 638
+  },
+  {
+    "entry": "Back matter",
+    "title": "Glossary of Symbols",
+    "printed": 665,
+    "pdf": 684
+  },
+  {
+    "entry": "Back matter",
+    "title": "Index",
+    "printed": 669,
+    "pdf": 688
+  }
+]

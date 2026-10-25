@@ -1,1 +1,4 @@
 library/originals/** filter=lfs diff=lfs merge=lfs -text
+library/extracted/** text eol=lf
+# Preserve pdftotext layout whitespace in the raw extracted text.
+library/extracted/**/*.txt whitespace=-blank-at-eol,-blank-at-eof

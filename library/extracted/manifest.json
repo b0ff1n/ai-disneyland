@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "extracted_on": "2026-10-25",
+  "preserved_in_git_on": "2026-10-25",
+  "text_extractor": {
+    "tool": "pdftotext",
+    "version": "24.02.0",
+    "options": [
+      "-layout"
+    ],
+    "encoding": "UTF-8",
+    "page_separator": "U+000C (form feed), including after the last page"
+  },
+  "navigation_extractor": {
+    "tool": "pypdf",
+    "notes": "Raw outlines and page_labels were extracted during the original indexing. contents.json preserves the manually checked index data."
+  },
+  "books": [
+    {
+      "book_id": "spivak-calculus-4e",
+      "source_path": "library/originals/calculus-4nbsped-0914098918-9780914098911_compress.pdf",
+      "source_sha256": "d5811d7a7b530ce713af64d187bd133b9459656136bb01fb923f6ce9c078485e",
+      "pdf_pages": 699,
+      "index_path": "library/indexes/spivak-calculus-4e.md",
+      "files": [
+        {
+          "path": "library/extracted/spivak-calculus-4e/contents.json",
+          "bytes": 4941,
+          "sha256": "b926e3c08678bb76a10499a9093fc806a398777ab64bc1c3f594cdfaff962eb7"
+        },
+        {
+          "path": "library/extracted/spivak-calculus-4e/front-20.txt",
+          "bytes": 15820,
+          "sha256": "a22e09324b1eaec0b6f434ed659d6519ea2c09ae27df6d985b0544f472896c48"
+        },
+        {
+          "path": "library/extracted/spivak-calculus-4e/full.txt",
+          "bytes": 1991284,
+          "sha256": "f67214dd9bbc40aa6a76ca0f71c8c31a4457262a91e2bb6cb3c06be825dd9a76"
+        },
+        {
+          "path": "library/extracted/spivak-calculus-4e/outline.json",
+          "bytes": 2882,
+          "sha256": "6b24aea526d119a5243e440352ff1faed17950b086a94589b45321517650d956"
+        },
+        {
+          "path": "library/extracted/spivak-calculus-4e/page-labels.json",
+          "bytes": 4785,
+          "sha256": "26f33375aaf118bcca6e09de757c1778ef7c3f3162f527139c34f3377cc7cac8"
+        }
+      ]
+    },
+    {
+      "book_id": "axler-ladr-3e",
+      "source_path": "library/originals/Sheldon Axler auth. Linear Algebra Done Right.pdf",
+      "source_sha256": "ffd9531e58cbba11c9712fbc737b64daba70a7d61e142854495a9c706e14f1dc",
+      "pdf_pages": 352,
+      "index_path": "library/indexes/axler-ladr-3e.md",
+      "files": [
+        {
+          "path": "library/extracted/axler-ladr-3e/contents.json",
+          "bytes": 15356,
+          "sha256": "8b78dd9d2b624e5ef8a9e36ee43b4a1d7517cf8bc14d95e947be1a53b3efb8d2"
+        },
+        {
+          "path": "library/extracted/axler-ladr-3e/front-20.txt",
+          "bytes": 29006,
+          "sha256": "ffc399202e54134034154de96c51dc83ac64f48cca185450edcac6bb1d9cfb6e"
+        },
+        {
+          "path": "library/extracted/axler-ladr-3e/full.txt",
+          "bytes": 685414,
+          "sha256": "8a59b394fb41ab401248f2e68da98c3f0e61d82ea9b12c490a9855afc0e4f36e"
+        },
+        {
+          "path": "library/extracted/axler-ladr-3e/outline.json",
+          "bytes": 38472,
+          "sha256": "019f44ef69a085ef2daaf4d9af4cea3bd856a57bff029fbb0102c5fb48b8506b"
+        },
+        {
+          "path": "library/extracted/axler-ladr-3e/page-labels.json",
+          "bytes": 2347,
+          "sha256": "7076fc43dedb66d39e34ecc0bbe2a8e5306ec30681a535436a5c51db0d8d6e0b"
+        }
+      ]
+    },
+    {
+      "book_id": "dummit-foote-abstract-algebra-3e",
+      "source_path": "library/originals/David_S_Dummit_Richard_M_Foote_Abstract_Algeb_230928_225848.pdf",
+      "source_sha256": "3367d9ea25c6d6ce658fbabf4e425e2b5b66374ecfcf88c39202b56193e1e526",
+      "pdf_pages": 947,
+      "index_path": "library/indexes/dummit-foote-abstract-algebra-3e.md",
+      "files": [
+        {
+          "path": "library/extracted/dummit-foote-abstract-algebra-3e/contents.json",
+          "bytes": 14112,
+          "sha256": "3e24a012e7c353bd8c1412e21aa779c78861cff8174bd90e61e3a9eb5759dbaa"
+        },
+        {
+          "path": "library/extracted/dummit-foote-abstract-algebra-3e/front-20.txt",
+          "bytes": 40380,
+          "sha256": "e9c0f80e2c3642ead6d96e8621b644485516ed2b894de64aca0aeef2c9d5bbbe"
+        },
+        {
+          "path": "library/extracted/dummit-foote-abstract-algebra-3e/full.txt",
+          "bytes": 3200442,
+          "sha256": "97203c3c8aaf1a07c43cbe0ff26c440b16dead467e2b1e46bc6fd1455c70a3b7"
+        },
+        {
+          "path": "library/extracted/dummit-foote-abstract-algebra-3e/outline.json",
+          "bytes": 35853,
+          "sha256": "2c1448dd15a328ab104723312b291a9d58de21c1cbef70226818662ee8392ec9"
+        },
+        {
+          "path": "library/extracted/dummit-foote-abstract-algebra-3e/page-labels.json",
+          "bytes": 6521,
+          "sha256": "f948e4c239fd85c58bee18cca5b2fff37aee91716bc36504c01dd9dbb0352eb6"
+        }
+      ]
+    },
+    {
+      "book_id": "kato-kurokawa-saito-number-theory-1",
+      "source_path": "library/originals/Number Theory 1_ Fermat's Dream (Translations of -- Kazuya Kato, Nobushige Kurokawa, Takeshi Saito; translated -- Translations of Mathematical -- isbn13 9780821808634 -- d46d54a4554ae666b6f9dc4485c589b7 -- Anna’s Archive.pdf",
+      "source_sha256": "58ed86009a1f891eea2a46ebca871d3819728f5b64a77d462bd87b0e0a4015c6",
+      "pdf_pages": 157,
+      "index_path": "library/indexes/kato-kurokawa-saito-number-theory-1.md",
+      "files": [
+        {
+          "path": "library/extracted/kato-kurokawa-saito-number-theory-1/contents.json",
+          "bytes": 4641,
+          "sha256": "0a9e91a830c0ca0bf063d7a5d1bf9a9abd935f507ce62efc625fee809eb9ce16"
+        },
+        {
+          "path": "library/extracted/kato-kurokawa-saito-number-theory-1/front-20.txt",
+          "bytes": 33670,
+          "sha256": "317370548fe6dd6a35e8fb212a6e59bc49d756fa51da4c72c71f79453a7a23b0"
+        },
+        {
+          "path": "library/extracted/kato-kurokawa-saito-number-theory-1/full.txt",
+          "bytes": 354819,
+          "sha256": "2a12710ad27b17f54c596d477354b18f7b348c0d1a36b4e8a5f75fe5ac9a73ae"
+        },
+        {
+          "path": "library/extracted/kato-kurokawa-saito-number-theory-1/outline.json",
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "path": "library/extracted/kato-kurokawa-saito-number-theory-1/page-labels.json",
+          "bytes": 975,
+          "sha256": "04881077c8a749c6a622aca8444d9ec9201c00772b43145ba630fb9dacc64dcc"
+        }
+      ]
+    }
+  ]
+}

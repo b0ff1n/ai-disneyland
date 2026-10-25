@@ -1,0 +1,649 @@
+Undergraduate Texts in Mathematics
+
+
+
+
+Sheldon Axler
+
+
+Linear Algebra
+Done Right
+Third Edition
+Undergraduate Texts in Mathematics
+Undergraduate Texts in Mathematics
+
+
+Series Editors:
+
+Sheldon Axler
+San Francisco State University, San Francisco, CA, USA
+
+Kenneth Ribet
+University of California, Berkeley, CA, USA
+
+
+
+Advisory Board:
+
+Colin Adams, Williams College, Williamstown, MA, USA
+Alejandro Adem, University of British Columbia, Vancouver, BC, Canada
+Ruth Charney, Brandeis University, Waltham, MA, USA
+Irene M. Gamba, The University of Texas at Austin, Austin, TX, USA
+Roger E. Howe, Yale University, New Haven, CT, USA
+David Jerison, Massachusetts Institute of Technology, Cambridge, MA, USA
+Jeffrey C. Lagarias, University of Michigan, Ann Arbor, MI, USA
+Jill Pipher, Brown University, Providence, RI, USA
+Fadil Santosa, University of Minnesota, Minneapolis, MN, USA
+Amie Wilkinson, University of Chicago, Chicago, IL, USA
+
+
+
+
+Undergraduate Texts in Mathematics are generally aimed at third- and fourth-
+year undergraduate mathematics students at North American universities. These
+texts strive to provide students and teachers with new perspectives and novel
+approaches. The books include motivation that guides the reader to an appreciation
+of interrelations among different aspects of the subject. They feature examples that
+illustrate key concepts as well as exercises that strengthen understanding.
+
+
+
+
+For further volumes:
+http://www.springer.com/series/666
+Sheldon Axler
+
+
+
+Linear Algebra Done Right
+Third edition
+
+
+
+
+123
+Sheldon Axler
+Department of Mathematics
+San Francisco State University
+San Francisco, CA, USA
+
+
+
+
+ISSN 0172-6056                 ISSN 2197-5604 (electronic)
+ISBN 978-3-319-11079-0         ISBN 978-3-319-11080-6 (eBook)
+DOI 10.1007/978-3-319-11080-6
+Springer Cham Heidelberg New York Dordrecht London
+
+Library of Congress Control Number: 2014954079
+
+Mathematics Subject Classification (2010): 15-01, 15A03, 15A04, 15A15, 15A18, 15A21
+
+c Springer International Publishing 2015
+This work is subject to copyright. All rights are reserved by the Publisher, whether the whole or part
+of the material is concerned, specifically the rights of translation, reprinting, reuse of illustrations,
+recitation, broadcasting, reproduction on microfilms or in any other physical way, and transmission or
+information storage and retrieval, electronic adaptation, computer software, or by similar or dissimilar
+methodology now known or hereafter developed. Exempted from this legal reservation are brief
+excerpts in connection with reviews or scholarly analysis or material supplied specifically for the
+purpose of being entered and executed on a computer system, for exclusive use by the purchaser of
+the work. Duplication of this publication or parts thereof is permitted only under the provisions of the
+Copyright Law of the Publisher’s location, in its current version, and permission for use must always be
+obtained from Springer. Permissions for use may be obtained through RightsLink at the Copyright
+Clearance Center. Violations are liable to prosecution under the respective Copyright Law.
+The use of general descriptive names, registered names, trademarks, service marks, etc. in this
+publication does not imply, even in the absence of a specific statement, that such names are exempt
+from the relevant protective laws and regulations and therefore free for general use.
+While the advice and information in this book are believed to be true and accurate at the date of
+publication, neither the authors nor the editors nor the publisher can accept any legal responsibility for
+any errors or omissions that may be made. The publisher makes no warranty, express or implied, with
+respect to the material contained herein.
+
+Typeset by the author in LaTeX
+
+Cover figure: For a statement of Apollonius’s Identity and its connection to linear algebra, see the last
+exercise in Section 6.A.
+
+Printed on acid-free paper
+
+Springer is part of Springer Science+Business Media (www.springer.com)
+    Contents
+
+
+
+  Preface for the Instructor    xi
+
+  Preface for the Student      xv
+
+  Acknowledgments xvii
+
+1 Vector Spaces   1
+    1.A Rn and Cn     2
+            Complex Numbers 2
+            Lists 5
+            Fn 6
+            Digression on Fields 10
+            Exercises 1.A 11
+    1.B Deﬁnition of Vector Space     12
+            Exercises 1.B 17
+    1.C Subspaces     18
+            Sums of Subspaces 20
+            Direct Sums 21
+            Exercises 1.C 24
+
+2 Finite-Dimensional Vector Spaces    27
+    2.A Span and Linear Independence       28
+            Linear Combinations and Span   28
+            Linear Independence 32
+            Exercises 2.A 37
+                                                v
+  vi      Contents
+
+       2.B Bases 39
+              Exercises 2.B 43
+       2.C Dimension       44
+              Exercises 2.C 48
+
+3 Linear Maps        51
+       3.A The Vector Space of Linear Maps      52
+              Deﬁnition and Examples of Linear Maps 52
+              Algebraic Operations on L.V; W / 55
+              Exercises 3.A 57
+       3.B Null Spaces and Ranges 59
+              Null Space and Injectivity 59
+              Range and Surjectivity 61
+              Fundamental Theorem of Linear Maps 63
+              Exercises 3.B 67
+       3.C Matrices       70
+              Representing a Linear Map by a Matrix 70
+              Addition and Scalar Multiplication of Matrices 72
+              Matrix Multiplication 74
+              Exercises 3.C 78
+       3.D Invertibility and Isomorphic Vector Spaces    80
+              Invertible Linear Maps 80
+              Isomorphic Vector Spaces 82
+              Linear Maps Thought of as Matrix Multiplication 84
+              Operators 86
+              Exercises 3.D 88
+       3.E Products and Quotients of Vector Spaces      91
+              Products of Vector Spaces 91
+              Products and Direct Sums 93
+              Quotients of Vector Spaces 94
+              Exercises 3.E 98
+                                                        Contents       vii
+
+     3.F Duality 101
+            The Dual Space and the Dual Map 101
+            The Null Space and Range of the Dual of a Linear Map 104
+            The Matrix of the Dual of a Linear Map 109
+            The Rank of a Matrix 111
+            Exercises 3.F 113
+
+4 Polynomials   117
+            Complex Conjugate and Absolute Value 118
+            Uniqueness of Coefﬁcients for Polynomials 120
+            The Division Algorithm for Polynomials 121
+            Zeros of Polynomials 122
+            Factorization of Polynomials over C 123
+            Factorization of Polynomials over R 126
+            Exercises 4 129
+
+5 Eigenvalues, Eigenvectors, and Invariant Subspaces        131
+    5.A Invariant Subspaces 132
+            Eigenvalues and Eigenvectors 133
+            Restriction and Quotient Operators 137
+            Exercises 5.A 138
+    5.B Eigenvectors and Upper-Triangular Matrices     143
+            Polynomials Applied to Operators 143
+            Existence of Eigenvalues 145
+            Upper-Triangular Matrices 146
+            Exercises 5.B 153
+    5.C Eigenspaces and Diagonal Matrices      155
+            Exercises 5.C 160
+
+6 Inner Product Spaces    163
+    6.A Inner Products and Norms      164
+            Inner Products 164
+            Norms 168
+            Exercises 6.A 175
+  viii   Contents
+
+     6.B Orthonormal Bases    180
+            Linear Functionals on Inner Product Spaces 187
+            Exercises 6.B 189
+     6.C Orthogonal Complements and Minimization Problems          193
+            Orthogonal Complements 193
+            Minimization Problems 198
+            Exercises 6.C 201
+
+7 Operators on Inner Product Spaces      203
+     7.A Self-Adjoint and Normal Operators      204
+            Adjoints 204
+            Self-Adjoint Operators 209
+            Normal Operators 212
+            Exercises 7.A 214
+     7.B The Spectral Theorem    217
+            The Complex Spectral Theorem 217
+            The Real Spectral Theorem 219
+            Exercises 7.B 223
+     7.C Positive Operators and Isometries     225
+            Positive Operators 225
+            Isometries 228
+            Exercises 7.C 231
+     7.D Polar Decomposition and Singular Value Decomposition      233
+            Polar Decomposition 233
+            Singular Value Decomposition 236
+            Exercises 7.D 238
+
+8 Operators on Complex Vector Spaces 241
+     8.A Generalized Eigenvectors and Nilpotent Operators    242
+            Null Spaces of Powers of an Operator 242
+            Generalized Eigenvectors 244
+            Nilpotent Operators 248
+            Exercises 8.A 249
+                                                          Contents   ix
+
+     8.B Decomposition of an Operator      252
+            Description of Operators on Complex Vector Spaces 252
+            Multiplicity of an Eigenvalue 254
+            Block Diagonal Matrices 255
+            Square Roots 258
+            Exercises 8.B 259
+     8.C Characteristic and Minimal Polynomials     261
+            The Cayley–Hamilton Theorem 261
+            The Minimal Polynomial 262
+            Exercises 8.C 267
+     8.D Jordan Form    270
+            Exercises 8.D 274
+
+ 9 Operators on Real Vector Spaces   275
+     9.A Complexiﬁcation      276
+            Complexiﬁcation of a Vector Space 276
+            Complexiﬁcation of an Operator 277
+            The Minimal Polynomial of the Complexiﬁcation 279
+            Eigenvalues of the Complexiﬁcation 280
+            Characteristic Polynomial of the Complexiﬁcation 283
+            Exercises 9.A 285
+     9.B Operators on Real Inner Product Spaces    287
+            Normal Operators on Real Inner Product Spaces 287
+            Isometries on Real Inner Product Spaces 292
+            Exercises 9.B 294
+
+10 Trace and Determinant 295
+    10.A Trace 296
+            Change of Basis 296
+            Trace: A Connection Between Operators and Matrices 299
+            Exercises 10.A 304
+x      Contents
+
+    10.B Determinant    307
+            Determinant of an Operator 307
+            Determinant of a Matrix 309
+            The Sign of the Determinant 320
+            Volume 323
+            Exercises 10.B 330
+
+Photo Credits 333
+
+Symbol Index      335
+
+Index     337
+   Preface for the Instructor
+
+
+
+You are about to teach a course that will probably give students their second
+exposure to linear algebra. During their ﬁrst brush with the subject, your
+students probably worked with Euclidean spaces and matrices. In contrast,
+this course will emphasize abstract vector spaces and linear maps.
+     The audacious title of this book deserves an explanation. Almost all
+linear algebra books use determinants to prove that every linear operator on
+a ﬁnite-dimensional complex vector space has an eigenvalue. Determinants
+are difﬁcult, nonintuitive, and often deﬁned without motivation. To prove the
+theorem about existence of eigenvalues on complex vector spaces, most books
+must deﬁne determinants, prove that a linear map is not invertible if and only
+if its determinant equals 0, and then deﬁne the characteristic polynomial. This
+tortuous (torturous?) path gives students little feeling for why eigenvalues
+exist.
+     In contrast, the simple determinant-free proofs presented here (for example,
+see 5.21) offer more insight. Once determinants have been banished to the
+end of the book, a new route opens to the main goal of linear algebra—
+understanding the structure of linear operators.
+     This book starts at the beginning of the subject, with no prerequisites
+other than the usual demand for suitable mathematical maturity. Even if your
+students have already seen some of the material in the ﬁrst few chapters, they
+may be unaccustomed to working exercises of the type presented here, most
+of which require an understanding of proofs.
+     Here is a chapter-by-chapter summary of the highlights of the book:
+
+ Chapter 1: Vector spaces are deﬁned in this chapter, and their basic proper-
+  ties are developed.
+
+ Chapter 2: Linear independence, span, basis, and dimension are deﬁned in
+  this chapter, which presents the basic theory of ﬁnite-dimensional vector
+  spaces.
+                                                                              xi
+xii    Preface for the Instructor
+
+ Chapter 3: Linear maps are introduced in this chapter. The key result here
+  is the Fundamental Theorem of Linear Maps (3.22): if T is a linear map
+  on V, then dim V D dim null T C dim range T. Quotient spaces and duality
+  are topics in this chapter at a higher level of abstraction than other parts
+  of the book; these topics can be skipped without running into problems
+  elsewhere in the book.
+
+ Chapter 4: The part of the theory of polynomials that will be needed
+  to understand linear operators is presented in this chapter. This chapter
+  contains no linear algebra. It can be covered quickly, especially if your
+  students are already familiar with these results.
+
+ Chapter 5: The idea of studying a linear operator by restricting it to small
+  subspaces leads to eigenvectors in the early part of this chapter. The
+  highlight of this chapter is a simple proof that on complex vector spaces,
+  eigenvalues always exist. This result is then used to show that each linear
+  operator on a complex vector space has an upper-triangular matrix with
+  respect to some basis. All this is done without deﬁning determinants or
+  characteristic polynomials!
+
+ Chapter 6: Inner product spaces are deﬁned in this chapter, and their basic
+  properties are developed along with standard tools such as orthonormal
+  bases and the Gram–Schmidt Procedure. This chapter also shows how
+  orthogonal projections can be used to solve certain minimization problems.
+
+ Chapter 7: The Spectral Theorem, which characterizes the linear operators
+  for which there exists an orthonormal basis consisting of eigenvectors,
+  is the highlight of this chapter. The work in earlier chapters pays off
+  here with especially simple proofs. This chapter also deals with positive
+  operators, isometries, the Polar Decomposition, and the Singular Value
+  Decomposition.
+
+ Chapter 8: Minimal polynomials, characteristic polynomials, and gener-
+  alized eigenvectors are introduced in this chapter. The main achievement
+  of this chapter is the description of a linear operator on a complex vector
+  space in terms of its generalized eigenvectors. This description enables
+  one to prove many of the results usually proved using Jordan Form. For
+  example, these tools are used to prove that every invertible linear operator
+  on a complex vector space has a square root. The chapter concludes with a
+  proof that every linear operator on a complex vector space can be put into
+  Jordan Form.
+                                               Preface for the Instructor   xiii
+
+ Chapter 9: Linear operators on real vector spaces occupy center stage in
+  this chapter. Here the main technique is complexiﬁcation, which is a natural
+  extension of an operator on a real vector space to an operator on a complex
+  vector space. Complexiﬁcation allows our results about complex vector
+  spaces to be transferred easily to real vector spaces. For example, this
+  technique is used to show that every linear operator on a real vector space
+  has an invariant subspace of dimension 1 or 2. As another example, we
+  show that that every linear operator on an odd-dimensional real vector space
+  has an eigenvalue.
+
+ Chapter 10: The trace and determinant (on complex vector spaces) are
+  deﬁned in this chapter as the sum of the eigenvalues and the product of the
+  eigenvalues, both counting multiplicity. These easy-to-remember deﬁni-
+  tions would not be possible with the traditional approach to eigenvalues,
+  because the traditional method uses determinants to prove that sufﬁcient
+  eigenvalues exist. The standard theorems about determinants now become
+  much clearer. The Polar Decomposition and the Real Spectral Theorem are
+  used to derive the change of variables formula for multivariable integrals in
+  a fashion that makes the appearance of the determinant there seem natural.
+
+   This book usually develops linear algebra simultaneously for real and
+complex vector spaces by letting F denote either the real or the complex
+numbers. If you and your students prefer to think of F as an arbitrary ﬁeld,
+then see the comments at the end of Section 1.A. I prefer avoiding arbitrary
+ﬁelds at this level because they introduce extra abstraction without leading
+to any new linear algebra. Also, students are more comfortable thinking
+of polynomials as functions instead of the more formal objects needed for
+polynomials with coefﬁcients in ﬁnite ﬁelds. Finally, even if the beginning
+part of the theory were developed with arbitrary ﬁelds, inner product spaces
+would push consideration back to just real and complex vector spaces.
+   You probably cannot cover everything in this book in one semester. Going
+through the ﬁrst eight chapters is a good goal for a one-semester course. If
+you must reach Chapter 10, then consider covering Chapters 4 and 9 in ﬁfteen
+minutes each, as well as skipping the material on quotient spaces and duality
+in Chapter 3.
+   A goal more important than teaching any particular theorem is to develop in
+students the ability to understand and manipulate the objects of linear algebra.
+Mathematics can be learned only by doing. Fortunately, linear algebra has
+many good homework exercises. When teaching this course, during each
+class I usually assign as homework several of the exercises, due the next class.
+Going over the homework might take up a third or even half of a typical class.
+xiv       Preface for the Instructor
+
+      Major changes from the previous edition:
+
+ This edition contains 561 exercises, including 337 new exercises that were
+  not in the previous edition. Exercises now appear at the end of each section,
+  rather than at the end of each chapter.
+
+ Many new examples have been added to illustrate the key ideas of linear
+  algebra.
+
+ Beautiful new formatting, including the use of color, creates pages with an
+  unusually pleasant appearance in both print and electronic versions. As a
+  visual aid, deﬁnitions are in beige boxes and theorems are in blue boxes (in
+  color versions of the book).
+
+ Each theorem now has a descriptive name.
+
+ New topics covered in the book include product spaces, quotient spaces,
+  and duality.
+
+ Chapter 9 (Operators on Real Vector Spaces) has been completely rewritten
+  to take advantage of simpliﬁcations via complexiﬁcation. This approach
+  allows for more streamlined presentations in Chapters 5 and 7 because
+  those chapters now focus mostly on complex vector spaces.
+
+ Hundreds of improvements have been made throughout the book. For
+  example, the proof of Jordan Form (Section 8.D) has been simpliﬁed.
+
+   Please check the website below for additional information about the book. I
+may occasionally write new sections on additional topics. These new sections
+will be posted on the website. Your suggestions, comments, and corrections
+are most welcome.
+   Best wishes for teaching a successful linear algebra class!
+
+Sheldon Axler
+Mathematics Department
+San Francisco State University
+San Francisco, CA 94132, USA
+website: linear.axler.net
+e-mail: linear@axler.net
+Twitter: @AxlerLinear
+   Preface for the Student
+
+
+
+You are probably about to begin your second exposure to linear algebra. Unlike
+your ﬁrst brush with the subject, which probably emphasized Euclidean spaces
+and matrices, this encounter will focus on abstract vector spaces and linear
+maps. These terms will be deﬁned later, so don’t worry if you do not know
+what they mean. This book starts from the beginning of the subject, assuming
+no knowledge of linear algebra. The key point is that you are about to
+immerse yourself in serious mathematics, with an emphasis on attaining a
+deep understanding of the deﬁnitions, theorems, and proofs.
+    You cannot read mathematics the way you read a novel. If you zip through a
+page in less than an hour, you are probably going too fast. When you encounter
+the phrase “as you should verify”, you should indeed do the veriﬁcation, which
+will usually require some writing on your part. When steps are left out, you
+need to supply the missing pieces. You should ponder and internalize each
+deﬁnition. For each theorem, you should seek examples to show why each
+hypothesis is necessary. Discussions with other students should help.
+    As a visual aid, deﬁnitions are in beige boxes and theorems are in blue
+boxes (in color versions of the book). Each theorem has a descriptive name.
+    Please check the website below for additional information about the book. I
+may occasionally write new sections on additional topics. These new sections
+will be posted on the website. Your suggestions, comments, and corrections
+are most welcome.
+    Best wishes for success and enjoyment in learning linear algebra!
+
+Sheldon Axler
+Mathematics Department
+San Francisco State University
+San Francisco, CA 94132, USA
+website: linear.axler.net
+e-mail: linear@axler.net
+Twitter: @AxlerLinear
+                                                                            xv
+   Acknowledgments
+
+
+
+I owe a huge intellectual debt to the many mathematicians who created linear
+algebra over the past two centuries. The results in this book belong to the
+common heritage of mathematics. A special case of a theorem may ﬁrst have
+been proved in the nineteenth century, then slowly sharpened and improved by
+many mathematicians. Bestowing proper credit on all the contributors would
+be a difﬁcult task that I have not undertaken. In no case should the reader
+assume that any theorem presented here represents my original contribution.
+However, in writing this book I tried to think about the best way to present lin-
+ear algebra and to prove its theorems, without regard to the standard methods
+and proofs used in most textbooks.
+    Many people helped make this a better book. The two previous editions
+of this book were used as a textbook at about 300 universities and colleges. I
+received thousands of suggestions and comments from faculty and students
+who used the second edition. I looked carefully at all those suggestions as I
+was working on this edition. At ﬁrst, I tried keeping track of whose suggestions
+I used so that those people could be thanked here. But as changes were made
+and then replaced with better suggestions, and as the list grew longer, keeping
+track of the sources of each suggestion became too complicated. And lists are
+boring to read anyway. Thus in lieu of a long list of people who contributed
+good ideas, I will just say how truly grateful I am to everyone who sent me
+suggestions and comments. Many many thanks!
+    Special thanks to Ken Ribet and his giant (220 students) linear algebra
+class at Berkeley that class-tested a preliminary version of this third edition
+and that sent me more suggestions and corrections than any other group.
+    Finally, I thank Springer for providing me with help when I needed it and
+for allowing me the freedom to make the ﬁnal decisions about the content and
+appearance of this book. Special thanks to Elizabeth Loew for her wonderful
+work as editor and David Kramer for unusually skillful copyediting.
+
+                                                                 Sheldon Axler
+                                                                             xvii
+                                                                       CHAPTER
+
+
+
+                                                                           1
+                                                           René Descartes explaining his
+                                                           work to Queen Christina of
+                                                           Sweden. Vector spaces are a
+                                                           generalization of the
+                                                           description of a plane using
+                                                           two coordinates, as published
+                                                           by Descartes in 1637.
+
+
+
+
+Vector Spaces
+Linear algebra is the study of linear maps on ﬁnite-dimensional vector spaces.
+Eventually we will learn what all these terms mean. In this chapter we will
+deﬁne vector spaces and discuss their elementary properties.
+    In linear algebra, better theorems and more insight emerge if complex
+numbers are investigated along with real numbers. Thus we will begin by
+introducing the complex numbers and their basic properties.
+    We will generalize the examples of a plane and ordinary space to Rn
+and Cn , which we then will generalize to the notion of a vector space. The
+elementary properties of a vector space will already seem familiar to you.
+    Then our next topic will be subspaces, which play a role for vector spaces
+analogous to the role played by subsets for sets. Finally, we will look at sums
+of subspaces (analogous to unions of subsets) and direct sums of subspaces
+(analogous to unions of disjoint sets).
+
+                  LEARNING OBJECTIVES FOR THIS CHAPTER
+
+         basic properties of the complex numbers
+         Rn and Cn
+         vector spaces
+         subspaces
+         sums and direct sums of subspaces
+© Springer International Publishing 2015                                              1
+S. Axler, Linear Algebra Done Right, Undergraduate Texts in Mathematics,
+DOI 10.1007/978-3-319-11080-6__1
+2         CHAPTER 1 Vector Spaces
+
+
+    1.A        Rn and Cn
+Complex Numbers
+You should already be familiar with basic properties of the set R of real
+numbers. Complex numbers were invented so that we can take square roots of
+negative numbers. The idea is to assume we have a square root of 1, denoted
+i, that obeys the usual rules of arithmetic. Here are the formal deﬁnitions:
+
+    1.1    Deﬁnition     complex numbers
+
+           A complex number is an ordered pair .a; b/, where a; b 2 R, but
+            we will write this as a C bi .
+
+           The set of all complex numbers is denoted by C:
+                                   C D fa C bi W a; b 2 Rg:
+
+           Addition and multiplication on C are deﬁned by
+                       .a C bi/ C .c C d i / D .a C c/ C .b C d /i;
+                     .a C bi /.c C d i / D .ac  bd / C .ad C bc/iI
+            here a; b; c; d 2 R.
+
+   If a 2 R, we identify a C 0i with the real number a. Thus we can think
+of R as a subset of C. We also usually write 0 C bi as just bi, and we usually
+write 0 C 1i as just i.
+ The symbol i was ﬁrst used to de-        Using multiplication as deﬁned
+     p
+ note 1 by Swiss mathematician       above,  you should verify that i 2 D 1.
+ Leonhard Euler in 1777.              Do not memorize the formula for the
+                                      product of two complex numbers; you
+                                      can always rederive it by recalling that
+                                      i 2 D 1 and then using the usual rules
+                                      of arithmetic (as given by 1.3).
+
+1.2       Example Evaluate .2 C 3i /.4 C 5i/.
+
+Solution          .2 C 3i /.4 C 5i/ D 2  4 C 2  .5i / C .3i /  4 C .3i /.5i /
+                                      D 8 C 10i C 12i  15
+                                      D 7 C 22i
+                                            SECTION 1.A Rn and Cn           3
+
+
+ 1.3    Properties of complex arithmetic
+
+  commutativity
+      ˛ C ˇ D ˇ C ˛ and ˛ˇ D ˇ˛ for all ˛; ˇ 2 C;
+
+  associativity
+        .˛ Cˇ/C D ˛ C.ˇ C/ and .˛ˇ/ D ˛.ˇ/ for all ˛; ˇ;  2 C;
+
+  identities
+         C 0 D  and 1 D  for all  2 C;
+
+  additive inverse
+        for every ˛ 2 C, there exists a unique ˇ 2 C such that ˛ C ˇ D 0;
+
+  multiplicative inverse
+       for every ˛ 2 C with ˛ ¤ 0, there exists a unique ˇ 2 C such that
+       ˛ˇ D 1;
+
+  distributive property
+        .˛ C ˇ/ D ˛ C ˇ for all ; ˛; ˇ 2 C.
+
+   The properties above are proved using the familiar properties of real
+numbers and the deﬁnitions of complex addition and multiplication. The
+next example shows how commutativity of complex multiplication is proved.
+Proofs of the other properties above are left as exercises.
+
+1.4    Example   Show that ˛ˇ D ˇ˛ for all ˛; ˇ;  2 C.
+
+Solution  Suppose ˛ D a C bi and ˇ D c C d i, where a; b; c; d 2 R. Then
+the deﬁnition of multiplication of complex numbers shows that
+
+                     ˛ˇ D .a C bi /.c C d i /
+                         D .ac  bd / C .ad C bc/i
+
+and
+
+                     ˇ˛ D .c C d i /.a C bi/
+                         D .ca  db/ C .cb C da/i:
+
+The equations above and the commutativity of multiplication and addition of
+real numbers show that ˛ˇ D ˇ˛.
+

@@ -1,0 +1,665 @@
+Translations                    of
+M&THEMATICAL
+   MONOGRAPHS
+Volume   186
+
+
+
+
+Number                    Theory                              1
+Fermat’s            Dream
+Kazuya Kato
+Nobushige   Kurokawa
+Takeshi Saito
+
+Translated    by
+Masato     Kuwata
+
+
+
+         lallalllllllllllllllllllllllllllllllllllllllllll
+         FUDAN          BOO12090492443                    B       '!$
+
+
+
+
+         American       Mathematical            Society
+          Providence,     Rhode        Ilsand
+                                      Contents
+
+Preface                                                            ix
+
+Preface to the English Edition                                     xi
+                                                                   . ..
+Objectives        and Outline      of these Books                x111
+
+
+Notation                                                          xv
+
+Chapter      0.    Introduction
+                      -   Fermat    and Number      Theory   ~
+   0.1. Before Fermat
+   0.2. Prime numbers and the sum of two squares
+   0.3. p = x2 + 2y2, p = x2 + 3y2,. . .
+   0.4. Pell’s equations
+   0.5. Triangular numbers, quadrangular numbers, pentagonal
+         numbers                                                        8
+   0.6. Triangular numbers, squares, cubes                         10
+   0.7. Right triangles and elliptic curves                        11
+   0.8. Fermat’s Last Theorem                                      12
+        Exercises                                                  14
+
+Chapter 1. Rational Points on Elliptic Curves                      17
+  1.1. Fermat and elliptic curves                                  17
+  1.2. Group structure of an elliptic curve                        25
+  1.3. Mordell’s theorem                                           30
+        Summary                                                    43
+        Exercises                                                  43
+
+Chapter 2. Conies and padic Numbers                                45
+  2.1. Conies                                                      45
+  2.2. Congruence                                                  49
+  2.3. Conies and quadratic residue symbols                        53
+  2.4. p-adic number fields                                        58
+                                             vii
+“Ill                                       CONTENTS
+
+
+          2.5.   Multiplicative       structure  of the p-adic   number   field   69
+          2.6.   Rational       points on tonics                                  74
+                 Summary                                                          78
+                 Exercises                                                        78
+
+ Chapter         3. <                                                              81
+    3.1.         Three wonders of the values          of the < function            81
+    3.2.         Values at positive integers                                       84
+    3.3.         Values at negative integers                                       89
+                 Summary                                                           99
+                 Exercises                                                        100
+
+   Chapter       4. Algebraic       Number      Theory                            103
+      4.1.       Method     of algebraic    number theory                         104
+      4.2.       The heart of algebraic        number theory                      113
+      4.3.       The class number        formula
+                  for imaginary     quadratic     fields                          124
+          4.4.   Fermat’s    Last Theorem        and Kummer                       127
+                 Summary                                                          132
+                 Exercises                                                        132
+
+   Appendix        A.      Rudiments   on Dedekind    domains                     135
+      A.l.        Definition    of a Dedekind  domain                             135
+      A.2.        Fractional    ideal                                             136
+
+       Answers    to Questions                                                    139
+
+       Answers    to Exercises                                                    145
+
+       Index                                                                      153
+                                     Preface
+
+
+      This book was written             in 1996, two hundred          years after 1796,
+which was a very fruitful           year for the great Gauss, who made many
+fundamental        contributions      to modern       number    theory.    Gauss was in
+his late teens at the time.            On March 30 he discovered            a method     of
+construction       of a regular 17-gon. On April 8 he proved the quadratic
+reciprocity      law (see $2.2 in this volume),            which he himself called a
+gem. On May 31 he conjectured                what would later be called “the prime
+number theorem”           concerning      the distribution     of prime numbers.       On
+July 10 he proved that any natural                  number     can be expressed      as a
+sum of at most three triangular               numbers      (see 50.5). On October         1
+he obtained       a result on the number of solutions             for an equation    with
+coefficients    in a finite field, which had a great impact on mathematics
+in later eras. All these contributions              are discussed in these volumes,
+ Number      Theory 1, 2, 3.
+      One, two, three, four.. . as naive as it is, the world of numbers
+encompasses      many wonders that fascinated              young Gauss. A discov-
+ery in one epoch induces a more profound                 discovery by the following
+generation.     A hundred      years later, in 1896, the prime number              theo-
+rem was proved. After some 120 years, the quadratic                    reciprocity   law
+had grown into the class field theory.              After 150 years, Andre Weil,
+who had examined         Gauss’s result of October 1, proposed the so-called
+Weil conjectures.       These conjectures       influenced      a great deal of alge-
+braic geometry      in the twentieth      century.      The brilliance     of the gems
+polished by Gauss has increased through              the efforts of the mathemati-
+cians of following     generations.     It is said that there is no unexplored
+place on the earth any longer, but the world of numbers is still full of
+mysteries.     That makes us think of the profoundness                 and richness of
+nature.
+      Wandering     naively in the wonderland           of numbers,      we would like
+to describe in this book the intricate           world of numbers         that modern
+x                            PREFACE
+
+
+number theory has discoverd.    We will be very happy if the reader
+discovers the wonders of numbers and the grandeur of nature.
+
+                  Kazuya Kato, Nobushige   Kurokawa,   Takeshi Saito
+         Preface      to the English          Edition
+
+     The authors hope that the readers enjoy the wonderful world of
+modern number theory through the book.
+      Our special thanks are due to Dr. Masato Kuwata, who not only
+translated the Japanese edition into English but also suggested many
+improvements on the text so that the present English edition is more
+readable than the original Japanese edition.
+
+
+
+
+                                 xi
+   Objectives         and     Outline       of these       Books
+
+
+      In thses books, Number Theory 1, 2, 3, we introduce core theories
+in modern number theory, such as class field theory, Iwasawa theory,
+the theory of modular forms, etc. The structure of this book is as
+follows.
+      The starting point of number theory is astonishment at the won-
+ders of numbers. The work of Fermat, who is considered to be a
+founding father of modern number theory, illustrates very well the
+wonder of numbers. We first discuss the work of Fermat on number
+theory in the introduction to Number Theory 1. The reader will learn
+how mathematicians of later eras little by little found a fascinating
+world behind each fact discovered by Fermat. In Number            Theory 1
+we study some important topics in modern number theory, such as el-
+liptic curves (Chapter l), p-adic numbers (Chapter 2), the C-function
+(Chapter 3)) and number fields (Chapter 4). These chapters are more
+or less independent; the material in the earlier chapters is not neces-
+sary to understand each succeeding chapter. Chapters 2 and 3 may
+be easier to read than Chapter 1. The reader should not hesitate to
+skip parts that are difficult to understand.
+      Number    Theory 2 is devoted to class field theory. We also study
+the <-function once again. In Number       Theory 3 we explain Iwasawa
+theory and the theory of modular forms, before coming back to elliptic
+curves once again.
+      These books are part of the series Fundamentals    of Modern Math-
+ematics, but we were not satisfied with the introduction of fundamen-
+tals. We tried to include today’s developments in number theory. For
+example, we included some important theories developed in recent
+years, such as the arithemetic theory of elliptic curves, which is part
+of arithmetic algebraic geometry, and Iwasawa theory, to which we
+did not find an introduction elsewhere. We hope that we convey the
+best of modern number theory.
+                                   Xl,,
+xiv         OBJECTIVES   AND   OUTLINE   OF   THESE   BOOKS
+
+
+     We wanted to include more topics, but we had to omit many of
+them due to the limitation on the number of pages. We regret that we
+could not mention Diophantine      approximations  and transcendental
+number theory, both of which are seeing new developments in recent
+years.
+     Prerequisites to Number Theory 1 are the fundamentals of groups,
+rings and fields. In Number Theory 2 we recommend that the reader
+be familiar with Galois theory.
+     The reader is advised to write down simple and easy examples on
+scratch paper. Just as astronomical observations are indispensable
+to the study of astronomy, it is indispensable to observe the numbers
+in order to study number theory. The wonders are there to be dis-
+covered. Also, number theory has a long history, which teaches us
+interesting lessons. We advise you to take an interest in the history
+of mathematics.
+                             Notation
+
+    Throughout    the book we use the following     symbols:
+
+     Z the set of all integers
+     Q the set of all rational numbers
+     lR the set of all real numbers
+     C the set of all complex numbers
+
+     A ring is always assumed to have an identity element (written      l),
+and a homomorphism       of rings is assumed to send 1 to 1.
+     If A is a ring, AX denotes the group of invertible elements of A.
+In particular, if A is a field, AX is the multiplicative group consisting
+of all the nonzero elements of A.
+                                   CHAPTER        0
+
+
+
+                               Introduction
+                       -- Fermat     and Number     Theory
+
+
+        In September   1994 Andrew     Wiles   proved    Fermat’s   Last Theorem,
+which      states:
+            “For n greater  than or equal to 3, there exist              no
+            natural numbers x, y, z satisfying the equation
+
+                                   xn + yn = Zn.”
+
+Fermat’s Last Theorem         had resisted a proof for more than 350 years.
+      Fermat (1601-65)      wrote his “Last Theorem”      around 1630 in the
+margin     of a book he owned.        Fermat also left a phrase (‘1 found a
+remarkable      proof for this fact, but this margin is too narrow to write
+it down.”      In spite of the efforts of many people, the proof has not
+been discovered.
+      In this chapter we focus on Fermat,         who is considered    to be a
+ “founder    of modern number theory”.       We review his work on number
+theory, and see how his work has been developed              and extended   in
+later eras. We introduce       our treatment  of Fermat’s   work in this book
+from a modern viewpoint.
+
+
+                               0.1. Before     Fermat
+      Fermat wrote down his “Last Theorem”          in the margin of his copy
+of Arithmetica     by Diophantus, an ancient Greek mathematician.             It
+was on the page where the positive        integral     solutions   of the equa-
+tion x2 + y2 = z2 were discussed.      Fermat replaced         the power of the
+equation    by 3,4,5, . . . .
+      There are many positive integral    solutions     to x2 + y2 = ,z2, such
+as
+
+               32 + 42 = 52,     52 + 122 = 132,        82 + 152 = 172
+                                            \D
+2                         0. INTRODUCTION
+
+
+
+
+             5 /           4
+                                  13
+                                                12
+                                                     17
+                                                              15
+
+
+
+
+            4Lll  3                    5’
+                                            /
+
+
+
+
+                FIGURE 0.1. Pythagorean Theorem
+                                                          a
+
+
+
+
+(see92.1). By the Pythagorean Theorem, such a solution corresponds
+to the three sides of a right triangle as we see in Figure 0.1. As a
+result, this equation has been studied since ancient times. In the
+middle of this century archaeologists succeeded in deciphering the
+writings on a plate found at an ancient Babylonian site of 4000 years
+ago. On it were inscribed many solutions to z2 + y2 = z2, such as
+                         11g2 + 1202 = 16g2.
+The author of this plate apparently knew how to find such x, y and
+Z.
+     In ancient Greece many superb mathematicians emerged, and
+Pythagoras (572-492 B.C.) is among them. The theorem is named for
+Pythagoras because he is considered to be the first to prove it. Some
+people consider Pythagoras to be the originator of number theory. He
+was fascinated by the mystery of numbers, and he said “Everything
+is a number.” Pythagoras found that two chords whose length have
+an integer ratio give a beautiful harmony, and he invented a musi-
+cal scale. He attached great importance to integer ratios, but he is
+considered to be the first one to find the existence of irrational num-
+bers, namely numbers which cannot be expressed as the ratio of two
+integers.
+     Rational numbers, which can be expressed as the ratio of two
+integers, seemto be tightly packed in the line formed by real numbers,
+but there are numbers such as & which are not rational numbers.
+This fact cannot be seen by the naked eye. We are capable of seeing
+it through the method known as “proof”, which was invented by the
+ancient Greeks. Pythagoras was astonished by the proved existence
+of an irrational number. He proved it by himself, but he agonized over
+the interpretation of this fact. (Pythagoras thought that the existence
+                          0.1.   BEFORE    FERMAT                       3
+
+
+of an irrational number was an error of the gods. So, he prohibited
+his disciples from telling this fact to anyone else. Legend has it that
+a disciple broke the ban, and then lost his life in a shipwreck because
+of the anger of the gods.)
+      Euclid’s Elements, which was written in the third century B.C.,
+is a compilation of ancient Greek mathematics.        It includes a proof
+of the existence of infinitely many prime numbers, and it discusses
+greatest common divisors and least common multiples (volumes 7
+and 9 in the thirteen volumes of Elements).       Knowing the existence
+of irrational numbers, Elements treats the question “How can we give
+a foundation for real numbers based on rational numbers?“,         and it
+develops an excellent theory of real numbers (Elements, volume 5).
+Pythagoras agonized over this question, and Elements discusses it a
+great deal. It was only in the nineteenth century that a complete
+answer was given (see $2.4 in this volume).
+      However, the theory of real numbers developed in the nineteenth
+century did not put to rest the question posed by the ancient Greeks:
+“What are the numbers?”         Around a hundred years ago, using a
+method similar to the construction      of real numbers out of rational
+numbers, a world of numbers called “$-adic numbers” was established
+for each prime number p out of rational numbers. They form a quite
+different world from the world of real numbers, but they turn out to
+be as natural and as important as the world of real numbers.
+
+     {padic   numbers}   > {rational      numbers}   c {real numbers)
+
+     Diophantus   was a mathematician    of the third century, and he
+was a descendant of the ancient Greek school of mathematicians.       He
+wrote the book Arithmetica, which discusses rational solutions to alge-
+braic equations. After Diophantus, the development of number theory
+slowed down until Fermat. The Renaissance revived the free spirits
+of the ancient Greece, and Arithmetica    was republished. Fermat was
+stimulated by Arithmetica and began to study number theory.
+     Fermat was a lawyer in Toulouse in France. He founded a method
+of describing a geometric figure by an equation (for example, express-
+ing an ellipse by the equation $ + $ = 1) independent of Descartes.
+He obtained maxima and minima of a function using a method sim-
+ilar to calculus. Later this work served as a clue to the discovery of
+calculus. He also did some important      work on number theory. He
+was the greatest mathematician     of the first half of the seventeenth
+century.
+4                                 0. INTRODUCTION
+
+
+      In the following     sections we introduce        some propositions       Fermat
+claimed to have proved. Each of them surpassed the level of ancient
+mathematics,        and they began the epoch of modern               number     theory.
+Fermat himself seldom wrote down a proof, but mathematicians                           of
+later eras made efforts to give a proof to each of these propositions.
+These propositions       concern integral      or rational   solutions    to algebraic
+equations.     It appears as if they are just a compilation            of bits of facts
+on different equations.       Indeed, his contemporaries          had a tendency       to
+think that way.
+      However,      we believe that Fermat,         who had a deep affection          for
+these propositions,      understood     intuitively     that the study of integral
+or rational    solutions   to equations   leads us to a profound        part of math-
+ematics.    As it turned out, these theorems             are the tip of the iceberg
+of deep mathematics.
+
+        0.2. Prime numbers and the sum of two squares
+      Fermat    left forty-eight  comments    in the margin    of his copy of
+Arithmetica     about his work related to the text. These comments        were
+published    after the death of Fermat by his son. The so-called         “Last
+Theorem”      is the second among these comments.         (See, for example,
+Number      Theory by A. Weil.)
+      The seventh comment        is related the following   propositions    ob-
+tained by Fermat.
+
+      PROPOSITION       0.1. Let p be a prime number congruent        to 1 mod-
+ulo 4 (e.g., 5,13,17).       Then there exists a right triangle    with integer
+sides such that the length of tile hypotenuse     is p. Conversely,     no such
+right triangle    exists for any prime number congruent         to 3 modulo 4
+(e.g., 3,7,11).
+
+     Notice that in Figure 0.1 the prime numbers             5,13,17 are hy-
+potenuses     of right triangles.    It can be shown, however, that there is
+no right triangle      having 21 (which is not a prime) as its hypotenuse,
+even though 21 is congruent         to 1 modulo 4. As we mentioned   earlier,
+right triangles      whose sides are integers have been studied since an-
+cient times. However, Fermat was the first to discover such relations
+between prime numbers           and right triangles.
+
+      PROPOSITION         0.2. If p is a prime number congruent            to 1 module
+4, then there       exist natural numbers x and y satisfying
+                                     p=x2+y2.
+          0.2.   PRIME   NUMBERS        AND     THE   SUM   OF    TWO   SQUARES         5
+
+
+
+For example,        we have
+
+
+
+Conversely,    for a prime number p congruent                    to 3 module 4 there   do
+not exist rational   numbers x and y satisfying                  p = x2 + y2.
+
+     Propositions   0.1 and 0.2 were “preludes”         to class field theory,
+which is one of the greatest theories of twentieth      century mathematics.
+We will discuss class field theory in Volume          2. Using the complex
+number    i = a,       we can interpret   Proposition       0.2 as follows.    A
+prime number p congruent      to 1 modulo 4 loses its irreducibility        as a
+prime number in the ring
+
+      Z[i]={a+bi/             a,bEZ}             (Z is the ring of all integers)
+
+and it factors      into the product          of two numbers,      such as
+
+                         5 = 22 + l2 = (2 + i)(2 - i),
+                         13 = 32 + 22 = (3 + 2i)(3           - 2i),
+                         17 = 42 + l2 = (4 + i)(4 - i).
+
+The numbers such as 2 + i, 2 - i a.nd 3 + 2i that appear in the above
+factorizations      are “prime elements”     in Z[i] which correspond     to prime
+numbers in Z. Just as any nonzero integer can be uniquely                 factored
+into the product of prime numbers up to a multiple            of fl, any nonzero
+element of Z[i] can be factored into the product           of prime elements up
+to a multiple      of fl or fi. A prime number congruent            to 1 modulo 4
+is the product       of two prime elements in Z[i], while a prime number
+congruent       to 3 modulo     4 is a prime element in Z[i]. This is the idea
+behind Proposition         0.2.
+       We can also prove Proposition          0.1 using the idea of “prime fac-
+torization     in Z[i]“, as we see
+
+       52 = (2 + i)2(2        - i)2 = (3 + 4i)(3       - 4i) = 32 + 42,
+       132 = (3 + 2i)2(3        - 2i)2 = (5 + 12i)(5         - 12i) = 52 + 122,
+       172 = (4 + i)2(4        - iy    = (15 + 8i)(15       - 8i) = 152 + 82.
+
+     Therefore, Propositions    0.1 and 0.2 are reflections  of the fact that
+as we extend the notion of numbers         from Z to Zbi], the factorization
+of a prime number       in Z[i] is determined    by its residue modulo       4.
+One of the main themes of class field theory is the factorization            of
+prime numbers    when we extend the world of numbers,          and Fermat’s
+6                              0. INTRODUCTION
+
+
+Propositions 0.1 and 0.2 may be called the “prelude to class field
+theory”. We will come back to class field theory once again in $0.3.
+
+                 0.3. p = x2 + 2y2, p = x2 + 3y2,. . .
+    Fermat   also discovered     the following   fact.
+   PROPOSITION     0.3. If p is a prime number congruent to 1 or 3
+modulo 8, then there exist natural numbers x and y satisfying
+                                 p=x2+2y?
+For example, we have
+      3=12+2x12,               11=32+2x12,               17=32+2x22.
+Conversely, for a prime number p congruent to 5 or 7 module 8 there
+do not exist rational numbers x and y satisfying p = x2 + 2y2.
+    PROPOSITION     0.4. If p is a prime number congruent              to 1 mod-
+ulo 3, then there exist natural numbers x and y satisfying
+                                 p=x2+3y?
+For example, we have
+      7=22+3x12,               13=12+3x22,               19=42+3x12.
+Conversely, for a prime number p congruent               to 2 module 3 there do
+not exist rational numbers x and y satisfying            p = x2 + 3y2.
+   PROPOSITION     0.5. If p is a prime number congruent to 1 or 7
+module 8, then there exist natural numbers x and y satisfying
+                                 p=xa-2y2.
+For example, we have
+      7 = 32 - 2 x 12,         17 = 52 - 2 x 22,         23 = 52 - 2 x 12.
+Conversely, for a prime number p congruent to 3 or 5 modulo 8 there
+do not exist rational numbers x and y satisfying p = x2 - 2y2.
+    We will give a proof of these propositions in Chapter 4, together
+with a proof of Propositions 0.1 and 0.2. Through the eyes of modern
+mathematics, all these propositions may be regarded as preludes to
+class field theory. Consider the identities
+               3 = l2 + 2 x l2 = (1+ G)(l                - J-2),
+               7 = 22 + 3 x l2 = (2 + Q)(2               - a),
+               7 = 32 - 2 x l2 = (3 + Jz)(3 - Jz).
+                             0.4. PELL'S    EQUATIONS                                  7
+
+                                    TABLE     0.1
+
+
+
+     ~
+                                   primes congruent        to 1 or 3 modulo    8
+
+
+                 acm         I primes congruent to 1 or 7 modulo 8
+We see that Propositions       0.3, 0.4 and 0.5 are reflections of how prime
+numbers are factorized in Q(n)             = {u + b&2       1 a, b E Q} (where
+Q is the set of all rational numbers), Q(a),             and Q(d),        respec-
+tively. Together with Proposition 0.2, we summarize the factorization
+of prime numbers in Table 0.1.
+      Class field theory tells us the correspondence      between the exten-
+sions of the rational number field Q and the factorization              of prime
+numbers.     Furthermore,     it tells us the correspondence       between the
+extensions Q( J--r)     and Q(a)         and the factorization     of prime ele-
+ments of Q(&i)        and Q(a).         See Chapter 4 for details.
+      Class field theory is one of the summits attained by Teiji Takagi
+around 1920 after contributions        by Fermat, Gauss, Kummer, Weber,
+Hilbert , and others.
+      Also, there is an interesting theory on the existence of rational
+solutions to equations of the type a~’ + by2 = c (a, b, c are rational
+numbers), such as x2 + y2 = 5, x2 + 2y2 = 7. We will discuss it in
+Chapter 2.
+
+                            0.4.   Pell’s   equations
+     Fermat      also declared that he proved the following.
+     PROPOSITION       0.6. Let N be a natural  number             which   is not      a
+square    of another   natural number. Then the equation
+                                   x2 - Ny’     = 1
+has injinitely     many natural number        solutions.
+
+    For example, the equation x2 - 2y2 = 1 has infinitely many nat-
+ural number solutions such as
+         32 - 2 x 22 = 1,    172 - 2 x 122 = 1,            9g2 - 2 x 702 = 1.
+     An equation cf the form x2 - Ny2 = 1 is called a Pell’s               equation.
+8                                 0. INTRODUCTION
+
+
+      Through the eyes of modern mathematics Proposition 0.6 may be
+regarded as a statement about the ring Z[&V] = {a+bfl              ( a, b E Z}.
+If integers z and y satisfy 2’ - Ny2 = 1, then x + yfl            is a unit of
+the ring Z[&V] ( an element that has an inverse in %[&I),             since we
+have the relation (x + yv%)(z        - yfi)   = 1. For example, it can be
+seen that the set of units of Z[Jz] is the set {f(l       + a)”      j n E Z},
+and the fact that iZ[fi] h as infinitely many units is the reason why
+the equation x2 - 2y2 = 1 has infinitely many solutions in natural
+numbers.     The situation is significantly    different with the ring Z[i],
+whose set of units is the finite set (51, rti}. We will study such sets
+of units in Chapter 4, where we introduce “Dirichlet’s        unit theorem”
+ (see 54.2; the proof will be given in 56.2). In $4.2 we will prove
+Proposition    0.6 using Dirichlet’s  unit theorem.
+
+
+
+           0.5.   Triangular    numbers,    quadrangular        numbers,
+                                 pentagonal    numbers
+     The eighteenth comment           of Fermat     in the margin of Arithmetica
+is the following proposition.
+
+     PROPOSITION   0.7. If n > 3, any natural number can be expressed
+as the sum of less than or equal to n n-gonal numbers.
+
+     Here, an n-gonal number is the number of dots when you draw
+a regular n-gon in such a way as in Figure 0.2. Pythagoras and
+his disciples showed great interest in these numbers. For exam-
+ple, 1,3,6,10 ,... are triangular numbers, which can be expressed
+as iz(x + 1) with a natural number z. Quadrangular numbers are
+nothing but squares.
+     In the place where he wrote down Proposition 0.7, Fermat said
+that Proposition 0.7 was related to many profound mysteries in num-
+ber theory and that he intended to write a book about them. Unfor-
+tunately, however, the book was never written.
+     If we extract the part about the quadrangular numbers from
+Proposition 0.7, we have the following.
+
+     PROPOSITION         0.8. Let n be a natural number.        Then,   there   exist
+integers      x, y, z and u satisfying
+
+                               n=x2+y2+z2+u2.
+      0.5.   TRIANGULAR,        QUADRANGULAR..        PENTAGONAL   NUMBERS   9
+
+
+
+
+                             . OQtsl
+                            FIGURE    0.2. n-gonal numbers
+
+
+
+    For example,           we have
+
+               5=22+12+02+02,                    7=22+12+12+12,
+                               15 = 32 + 22 + 12 + 12.
+
+     Euler, the greatest mathematician   of the eighteenth century, was
+quite impressed by Fermat’s Proposition      0.7, and was disappointed
+that Fermat had not written     the proof. He became the successor
+to Fermat in number theory by giving proofs to many of the state-
+ments Fermat made. It is said that Euler struggled greatly when he
+attempted to prove Proposition     0.8. A proof of Proposition   0.8 was
+given in 1772 by Lagrange, who took over Euler’s effort.
+     In 1882 Jacobi gave a new proof of Proposition 0.8 using automor-
+phic forms. We will present Jacobi’s proof in Chapter 9 on automor-
+phic forms in Volume 3 (Theorem 9.22). Jacobi’s method of proof is
+so strong that it gives the number a(n) of quadruples (5, y, z, U) that
+10                                  0. INTRODUCTION
+
+
+satisfy
+                                n = x2 + y2 + z2 + u2
+for each integer n > 0. Jacobi’s            method uses the fact that the series
+
+                              -g a(n)Fnz
+                              n=O
+is an automorphic form, and it is a typical example of applications of
+automorphic forms to the arithmetic of quadratic forms.
+     Propositons   0.1-0.8 solve some of the problems of representing
+integers or rational numbers by quadratic forms such as x2 + y2 and
+x2 + y2 + z2 + u2. The arithmetic of quadratic forms grew out of these
+questions.
+
+               0.6.    Triangular        numbers,        squares,       cubes
+     Until now, all the work of Fermat we introduced concerns squares
+of numbers. We now consider cubes of numbers. A natural number
+that is the cube of another natural number is called a cubic number.
+Fermat compared cubic numbers to triangular numbers, and cubic
+numbers to square numbers. He stated the following.
+        PROPOSITION 0.9. A triangular number                 dinerent      from   1 is not a
+cubic     number.
+
+        PROPOSITION 0.10.       The only case where            a square     number    added
+to 2 becomes        a cubic number is 52 + 2 = 33.
+
+        PROPOSITION 0.11. The only caseswhere a square number added
+to 4 becomes   a cubic number are 22 + 4 = 23 and 112 + 4 = 53.
+
+        Propositions 0.9, 0.10 and 0.11 concern natural number solutions
+to
+
+                iY(Y    + 1) = x3,        y2+2=x3,            y2+4=23.
+     It is very difficult to prove these propositions (as well as Propo-
+sitions 0.1-0.8) by hand without using any significant tools. In at-
+tempting to prove these propositions we are naturally led to profound
+mathematics.
+     In $4.1 we will prove Propositions 0.10 and 0.11 by methods of
+algebraic number theory. Rewriting the equations y2 + 2 = x3 and
+y2 + 4 = x3 as
+     (y + d=)(y        - J-2)    = x3       and       (y + 2a)(y        - 2&i)       = x3,
+             0.7.   RIGHT     TRIANGLES     AND   ELLIPTIC    CURVES    11
+
+
+
+
+             FIGURE         0.3. The elliptic curve y2 = x3 - 2
+
+
+respectively, we can prove Propositions    0.10 and 0.11 using the arith-
+metic of iZ[J-“i] and Z[&i],    respectively.
+     We can view Propositions  0.9-0.11 as solving the equations of the
+form
+
+(0.1)                  y2 = (polynomial       of degree 3),
+where the cubic polynomial on the right-hand       side has no multiple
+root. (In Proposition 0.9 we can rewrite iy(y+ 1) = x3 as (2y+ 1)2 =
+(2~)~ + 1, and we obtain an equation of the form (0.1) by replacing
+2~ + 1 by Y.)
+      A curve defined by an equation of the form (0.1) is called an
+elliptic curme (see Figure 0.3). An elliptic curve is not an ellipse;
+it is so named due to the fact that it is related to the length of
+the perimeter of an ellipse. From here on all the work of Fermat
+we discuss will be related to elliptic curves. Fermat studied elliptic
+curves a great deal, although he did not realize it consciously. Elliptic
+curves are rich mathematical   objects. We will discuss elliptic curves
+in Chapter 1 and in Volume 3.
+
+            0.7.     Right      triangles   and elliptic      curves
+     Fermat’s twenty-third  comment in the margin of Arithmetica    is
+Proposition 0.12, and his forty-fifth comment is Proposition 0.13. He
+also mentions Proposition   0.14.
+

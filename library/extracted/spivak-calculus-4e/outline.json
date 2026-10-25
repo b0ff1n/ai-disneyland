@@ -1,0 +1,267 @@
+[
+  [
+    0,
+    "Cover",
+    1
+  ],
+  [
+    0,
+    "Title",
+    6
+  ],
+  [
+    0,
+    "Copyright",
+    7
+  ],
+  [
+    0,
+    "Preface",
+    9
+  ],
+  [
+    0,
+    "Contents",
+    16
+  ],
+  [
+    0,
+    "Part I Prologue",
+    19
+  ],
+  [
+    1,
+    "1 Basic Properties of Numbers",
+    22
+  ],
+  [
+    1,
+    "2 Numbers of Various Sorts",
+    40
+  ],
+  [
+    0,
+    "Part II Foundations",
+    56
+  ],
+  [
+    1,
+    "3 Functions",
+    58
+  ],
+  [
+    2,
+    "Appendix. Ordered Pairs",
+    73
+  ],
+  [
+    1,
+    "4 Graphs",
+    75
+  ],
+  [
+    2,
+    "Appendix 1. Vectors",
+    94
+  ],
+  [
+    2,
+    "Appendix 2. The Conic Sections",
+    99
+  ],
+  [
+    2,
+    "Appendix 3. Polar Coordinates",
+    103
+  ],
+  [
+    1,
+    "5 Limits",
+    109
+  ],
+  [
+    1,
+    "6 Continuous Functions",
+    134
+  ],
+  [
+    1,
+    "7 Three Hard Theorems",
+    141
+  ],
+  [
+    1,
+    "8 Least Upper Bounds",
+    152
+  ],
+  [
+    2,
+    "Appendix. Uniform Continuity",
+    163
+  ],
+  [
+    0,
+    "Part III Derivatives and integrals",
+    166
+  ],
+  [
+    1,
+    "9 Derivatives",
+    168
+  ],
+  [
+    1,
+    "10 Differentiation",
+    187
+  ],
+  [
+    1,
+    "11 Significance of the Derivative",
+    207
+  ],
+  [
+    2,
+    "Appendix. Convexity and Concavity",
+    238
+  ],
+  [
+    1,
+    "12 Inverse Functions",
+    249
+  ],
+  [
+    2,
+    "Appendix. Parametric Representation of Curves",
+    263
+  ],
+  [
+    1,
+    "13 Integrals",
+    272
+  ],
+  [
+    2,
+    "Appendix. Riemann Sums",
+    301
+  ],
+  [
+    1,
+    "14 The Fundamental Theorem of Calculus",
+    304
+  ],
+  [
+    1,
+    "15 The Trigonometric Functions",
+    321
+  ],
+  [
+    1,
+    "*16 pi is Irrational",
+    343
+  ],
+  [
+    1,
+    "*17 Planetary Motion",
+    349
+  ],
+  [
+    1,
+    "18 The Logarithm and Exponential Functions",
+    358
+  ],
+  [
+    1,
+    "19 Integration in Elementary Terms",
+    382
+  ],
+  [
+    2,
+    "Appendix. The Cosmopolitan Integral",
+    421
+  ],
+  [
+    0,
+    "Part IV Infinite Sequences and Infinite Series",
+    427
+  ],
+  [
+    1,
+    "20 Approximation by Polynomial Functions",
+    430
+  ],
+  [
+    1,
+    "*21 e is Transcendental",
+    461
+  ],
+  [
+    1,
+    "22 Infinite Sequences",
+    471
+  ],
+  [
+    1,
+    "23 Infinite Series",
+    490
+  ],
+  [
+    1,
+    "24 Uniform Convergence and Power Series",
+    518
+  ],
+  [
+    1,
+    "25 Complex Numbers",
+    545
+  ],
+  [
+    1,
+    "26 Complex Functions",
+    560
+  ],
+  [
+    1,
+    "27 Complex Power Series",
+    574
+  ],
+  [
+    0,
+    "Part V Epilogue",
+    598
+  ],
+  [
+    1,
+    "28 Fields",
+    600
+  ],
+  [
+    1,
+    "29 Construction of the Real Numbers",
+    608
+  ],
+  [
+    1,
+    "30 Uniqueness of the Real Numbers",
+    620
+  ],
+  [
+    0,
+    "Suggested Reading",
+    629
+  ],
+  [
+    0,
+    "Answers (to selected problems)",
+    638
+  ],
+  [
+    0,
+    "Glossary of Symbols",
+    684
+  ],
+  [
+    0,
+    "Index",
+    688
+  ]
+]

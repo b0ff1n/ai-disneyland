@@ -1,6 +1,6 @@
 # Textbook library
 
-The learner supplied these four PDFs and requested local versioning and indexing on 2026-10-25. The originals are stored through Git LFS. The indexes are ordinary Markdown and refer to these exact files.
+The learner supplied these four PDFs and requested local versioning and indexing on 2026-10-25. The originals are stored through Git LFS. The indexes are ordinary Markdown and refer to these exact files. Full-text extraction and navigation metadata are also retained in ordinary Git under [extracted/](extracted/README.md), following the [external-memory rules](../MEMORY.md).
 
 ## Catalog
 
@@ -19,13 +19,13 @@ Spivak and Axler remain the main preparation resources. Abstract algebra and num
 
 1. Open its index above. The source link points to the unchanged file in `originals/`; the index records its size, SHA-256, and the PDF pages supporting its identity.
 2. Find the chapter, section, appendix, or exercise block in the contents table. All entries are starts, not full ranges. Titles follow the supplied contents, with OCR errors and spacing normalized against the source.
-3. Use the **physical PDF page**, counting from 1, to open or extract the page. Printed page numbers and viewer labels can differ. Axler and *Number Theory 1* have several page-number gaps; their indexes provide piecewise mappings. Some of Spivak's bookmarks are off by one page, and Dummit & Foote's bookmarks are unusable for contents navigation.
+3. Use the **physical PDF page**, counting from 1, to read the saved extraction or open the original. Printed page numbers and viewer labels can differ. Axler and *Number Theory 1* have several page-number gaps; their indexes provide piecewise mappings. Some of Spivak's bookmarks are off by one page, and Dummit & Foote's bookmarks are unusable for contents navigation.
 4. Read the actual statement and its continuation before quoting, assigning, or discussing a numbered item. Render the page if extraction makes a formula or diagram unclear. The index does not replace this step.
 5. Record locators in this form: `axler-ladr-3e, section 3.B, printed p. 59, PDF p. 75`; include the exercise or theorem number after verifying it on the page.
 
-The indexes cover the printed contents: chapters, listed sections and subheadings, appendices, and back matter. Axler and *Number Theory 1* list exercise-block starts in their contents; Spivak and Dummit & Foote require locating the problem/exercise block within the indexed chapter or section. Individual exercise statements and proofs are not duplicated here.
+The indexes cover the printed contents: chapters, listed sections and subheadings, appendices, and back matter. Axler and *Number Theory 1* list exercise-block starts in their contents; Spivak and Dummit & Foote require locating the problem/exercise block within the indexed chapter or section. Full extracted text is available separately in [extracted/](extracted/README.md), including page-boundary conventions, navigation formats, and provenance.
 
-Example extraction from the repository root (Spivak, chapter 5, printed p. 90):
+Use the saved extraction first; see [how to read a page](extracted/README.md). To re-extract a specific page for comparison, run from the repository root (Spivak, chapter 5, printed p. 90):
 
 ```bash
 pdftotext -f 109 -l 109 -layout 'library/originals/calculus-4nbsped-0914098918-9780914098911_compress.pdf' -
@@ -37,11 +37,11 @@ To inspect that page visually, write a temporary render:
 pdftoppm -f 109 -l 109 -singlefile -scale-to 1800 -png 'library/originals/calculus-4nbsped-0914098918-9780914098911_compress.pdf' /tmp/spivak-pdf-109
 ```
 
-These examples require Poppler tools. Keep disposable extractions, OCR output, and renders in ignored `library/cache/` or a temporary directory. The originals must not be rewritten to add OCR, annotations, or bookmarks as part of reading.
+These examples require Poppler tools. Durable full-text extraction, useful OCR results, and navigation metadata belong in tracked `library/extracted/`. Only expendable intermediate files, such as the unannotated page render above, belong in ignored `library/cache/` or a temporary directory. The originals must not be rewritten to add OCR, annotations, or bookmarks as part of reading.
 
 ## Git LFS
 
-[Git LFS](https://git-lfs.com/) must be installed on each machine. For this checkout, its filters and hooks were configured with `git lfs install --local`; the repository's `.gitattributes` tracks everything under `library/originals/` as LFS data. Indexes and checksums remain ordinary Git text.
+[Git LFS](https://git-lfs.com/) must be installed on each machine. For this checkout, its filters and hooks were configured with `git lfs install --local`; the repository's `.gitattributes` tracks everything under `library/originals/` as LFS data. Indexes, extraction, navigation metadata, and checksums remain ordinary Git text, available independently of downloading the LFS originals.
 
 In a new checkout, after installing Git LFS, run from the repository root:
 
@@ -62,6 +62,6 @@ To verify the four exact indexed files, run **from the `library/` directory**:
 sha256sum --check SHA256SUMS
 ```
 
-When a source is replaced, verify its title and copyright pages, rebuild the affected contents/page map, and update [SHA256SUMS](SHA256SUMS). A matching title alone does not guarantee matching pagination or exercises.
+When a source is replaced, verify its title and copyright pages, rebuild the affected contents/page map and saved extraction, and update [SHA256SUMS](SHA256SUMS) and [the extraction manifest](extracted/manifest.json). A matching title alone does not guarantee matching pagination or exercises.
 
 To add or update a source after explicit authorization, stage the PDF together with its index, checksum, and any changed `.gitattributes`. Check `git lfs ls-files` and `git lfs fsck` before committing. Publishing or pushing requires a separate explicit user request under `AGENTS.md`.

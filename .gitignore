@@ -1,4 +1,4 @@
-# Disposable PDF extraction, rendering, and OCR outputs.
+# Expendable intermediates only; durable extraction is tracked in library/extracted/.
 /library/cache/
 /tmp/
 __pycache__/

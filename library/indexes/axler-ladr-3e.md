@@ -4,6 +4,7 @@ Indexed from the supplied file on 2026-10-25.
 
 - **Book ID:** `axler-ladr-3e`.
 - **Source:** [original PDF](../originals/Sheldon%20Axler%20auth.%20Linear%20Algebra%20Done%20Right.pdf).
+- **Saved extraction:** [full text](../extracted/axler-ladr-3e/full.txt); [formats and navigation](../extracted/README.md).
 - **Edition evidence:** Third edition, Springer, 2015. Print ISBN 978-3-319-11079-0; eBook ISBN 978-3-319-11080-6. DOI 10.1007/978-3-319-11080-6. Title: PDF 4; copyright, ISBNs, and DOI: PDF 5.
 - **File:** 352 PDF pages; 3,200,459 bytes.
 - **SHA-256:** `ffd9531e58cbba11c9712fbc737b64daba70a7d61e142854495a9c706e14f1dc` (also in [SHA256SUMS](../SHA256SUMS)).

@@ -4,6 +4,7 @@ Indexed from the supplied file on 2026-10-25.
 
 - **Book ID:** `kato-kurokawa-saito-number-theory-1`.
 - **Source:** [original PDF](../originals/Number%20Theory%201_%20Fermat%27s%20Dream%20%28Translations%20of%20--%20Kazuya%20Kato%2C%20Nobushige%20Kurokawa%2C%20Takeshi%20Saito%3B%20translated%20--%20Translations%20of%20Mathematical%20--%20isbn13%209780821808634%20--%20d46d54a4554ae666b6f9dc4485c589b7%20--%20Anna%E2%80%99s%20Archive.pdf).
+- **Saved extraction:** [full text](../extracted/kato-kurokawa-saito-number-theory-1/full.txt); [formats and navigation](../extracted/README.md).
 - **Edition evidence:** English translation by Masato Kuwata. American Mathematical Society, Translations of Mathematical Monographs, volume 186 (Iwanami Series in Modern Mathematics). The supplied scan has no copyright page: edition number, printing, publication year, and ISBN are not verified from it. The ISBN embedded in the filename is not treated as verified metadata. Title, authors, translator, publisher, and series: PDF 1.
 - **File:** 157 PDF pages; 6,831,522 bytes.
 - **SHA-256:** `58ed86009a1f891eea2a46ebca871d3819728f5b64a77d462bd87b0e0a4015c6` (also in [SHA256SUMS](../SHA256SUMS)).

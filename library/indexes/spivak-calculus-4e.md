@@ -4,6 +4,7 @@ Indexed from the supplied file on 2026-10-25.
 
 - **Book ID:** `spivak-calculus-4e`.
 - **Source:** [original PDF](../originals/calculus-4nbsped-0914098918-9780914098911_compress.pdf).
+- **Saved extraction:** [full text](../extracted/spivak-calculus-4e/full.txt); [formats and navigation](../extracted/README.md).
 - **Edition evidence:** Fourth edition, Publish or Perish, 2008. ISBN 978-0-914098-91-1. Title: PDF 6; copyright and ISBN: PDF 7.
 - **File:** 699 PDF pages; 39,351,102 bytes.
 - **SHA-256:** `d5811d7a7b530ce713af64d187bd133b9459656136bb01fb923f6ce9c078485e` (also in [SHA256SUMS](../SHA256SUMS)).

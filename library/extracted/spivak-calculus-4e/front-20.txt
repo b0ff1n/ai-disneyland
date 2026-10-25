@@ -1,0 +1,291 @@
+CALCULUS
+Fourth Edition
+
+Michael Spivak
+        Digitized by the Internet Archive
+                     in 2012
+
+
+
+
+http://archive.org/details/calculus4thediti00mich
+CALCULUS
+CALCULUS
+Fourth Edition
+
+Michael Spivak
+CALCULUS
+Fourth Edition
+
+
+
+Copyright © 1967, 1980, 1994, 2008 by Michael Spivak
+All rights reserved
+Library of Congress Catalog Card Number 80-82517
+
+
+
+
+Publish or Perish, Inc.
+PMB 377, 1302 Waugh Drive,
+Houston, Texas 77019
+www.mathpop.com
+
+
+Manufactured in the United States ofAmerica
+ISBN 978-0-914098-91-1
+Dedicated to the Memory of Y P.
+PREFACE
+ I hold every man a debtor
+ to his profession,
+from the which as men of course
+ doe seeke to receive countenance and profit,
+ so ought they of duty to endeavour
+ themselves by way of amends,
+ to be a help and
+ ornament thereunto.
+
+                             FRANCIS BACON
+PREFACE TO THE FIRST EDITION
+
+
+
+Every aspect of this book was influenced by the desire to present calculus not
+merely as a prelude to but as the first real encounter with mathematics. Since
+the foundations of analysis provided the arena in which modern modes of math­
+ematical thinking developed, calculus ought to be the place in which to expect,
+rather than avoid, the strengthening of insight with logic. In addition to devel­
+oping the students’ intuition about the beautiful concepts of analysis, it is surely
+equally important to persuade them that precision and rigor are neither deterrents
+to intuition, nor ends in themselves, but the natural medium in which to formulate
+and think about mathematical questions.
+   This goal implies a view of mathematics which, in a sense, the entire book
+attempts to defend. No matter how well particular topics may be developed, the
+goals of this book will be realized only if it succeeds as a whole. For this reason, it
+would be of little value merely to list the topics covered, or to mention pedagogical
+practices and other innovations. Even the cursory glance customarily bestowed on
+new calculus texts will probably tell more than any such extended advertisement,
+and teachers with strong feelings about particular aspects of calculus will know just
+where to look to see if this book fulfills their requirements.
+   A few features do require explicit comment, however. Of the twenty-nine chap­
+ters in the book, two (starred) chapters are optional, and the three chapters com­
+prising Part V have been included only for the benefit of those students who might
+want to examine on their own a construction of the real numbers. Moreover, the
+appendices to Chapters 3 and 11 also contain optional material.
+   The order of the remaining chapters is intentionally quite inflexible, since the
+purpose of the book is to present calculus as the evolution of one idea, not as a
+collection of “topics.” Since the most exciting concepts of calculus do not appear
+until Part III, it should be pointed out that Parts I and II will probably require
+less time than their length suggests—although the entire book covers a one-year
+course, the chapters are not meant to be covered at any uniform rate. A rather
+natural dividing point does occur between Parts II and III, so it is possible to
+reach differentiation and integration even more quickly by treating Part II very
+briefly, perhaps returning later for a more detailed treatment. This arrangement
+corresponds to the traditional organization of most calculus courses, but I feel
+that it will only diminish the value of the book for students who have seen a
+small amount of calculus previously, and for bright students with a reasonable
+background.
+   The problems have been designed with this particular audience in mind. They
+range from straightforward, but not overly simple, exercises which develop basic
+techniques and test understanding of concepts, to problems of considerable diffi­
+culty' and, I hope, of comparable interest. There are about 625 problems in all.
+Those which emphasize manipulations usually contain many examples, numbered
+vii
+viii Preface
+
+
+
+               with small Roman numerals, while small letters are used to label interrelated parts
+               in other problems. Some indication of relative difficulty is provided by a system of
+               starring and double starring, but there are so many criteria for judging difficulty,
+               and so many hints have been provided, especially for harder problems, that this
+               guide is not completely reliable. Many problems are so difficult, especially if the
+               hints are not consulted, that the best of students will probably have to attempt only
+               those which especially interest them; from the less difficult problems it should be
+               easy to select a portion which will keep a good class busy, but not frustrated. The
+               answer section contains solutions to about half the examples from an assortment
+               of problems that should provided a good test of technical competence. A separate
+               answer book contains the solutions of the other parts of these problems, and of all
+               the other problems as well. Finally, there is a Suggested Reading list, to which the
+               problems often refer, and a glossary of symbols.
+                  I am grateful for the opportunity to mention the many people to whom I owe my
+               thanks. Jane Bjorkgren performed prodigious feats of typing that compensated for
+               my fitful production of the manuscript. Richard Serkey helped collect the material
+               which provides historical sidelights in the problems, and Richard Weiss supplied
+               the answers appearing in the back of the book. I am especially grateful to my
+               friends Michael Freeman, Jay Goldman, Anthony Phillips, and Robert Wells for
+               the care with which they read, and the relentlessness with which they criticized, a
+               preliminary version of the book. Needles to say, they are not responsible for the
+               deficiencies which remain, especially since I sometimes rejected suggestions which
+               would have made the book appear suitable for a larger group of students. I must
+               express my admiration for the editors and staff of W. A. Benjamin, Inc., who were
+               always eager to increase the appeal of the book, while recognizing the audience
+               for which it was intended.
+                  The inadequacies which preliminary editions always involve were gallantly en­
+               dured by a rugged group of freshmen in the honors mathematics course at Brandeis
+               University during the academic year 1965-1966. About half of this course was
+               devoted to algebra and topology, while the other half covered calculus, with the
+               preliminary edition as the text. It is almost obligatory in such circumstances to
+               report that the preliminary version was a gratifying success. This is always safe—
+               after all, the class is unlikely to rise up in a body and protest publicly—but the
+               students themselves, it seems to me, deserve the right to assign credit for the thor­
+               oughness with which they absorbed an impressive amount of mathematics. I am
+               content to hope that some other students will be able to use the book to such good
+               purpose, and with such enthusiasm.
+
+               Waltham, Massachusetts                                          MICHAEL SPIVAK
+               February 1967
+PREFACE TO THE SECOND EDITION
+
+
+
+I have often been told that the title of this book should really be something like “An
+Introduction to Analysis,” because the book is usually used in courses where the
+students have already learned the mechanical aspects of calculus—such courses are
+standard in Europe, and they are becoming more common in the United States.
+After thirteen years it seems too late to change the title, but other changes, in
+addition to the correction of numerous misprints and mistakes, seemed called for.
+There are now separate Appendices for many topics that were previously slighted:
+polar coordinates, uniform continuity, parameterized curves, Riemann sums, and
+the use of integrals for evaluating lengths, volumes and surface areas. A few topics,
+like manipulations with power series, have been discussed more thoroughly in the
+text, and there are also more problems on these topics, while other topics, like
+Newton’s method and the trapezoid rule and Simpson’s rule, have been developed
+in the problems. There are in all about 160 new problems, many of which are
+intermediate in difficulty between the few routine problems at the beginning of
+each chapter and the more difficult ones that occur later.
+   Most of the new problems are the work of Ted Shifrin. Frederick Gordon
+pointed out several serious mistakes in the original problems, and supplied some
+non-trivial corrections, as well as the neat proof of Theorem 12-2, which took
+two Lemmas and two pages in the first edition. Joseph Lipman also told me
+of this proof, together with the similar trick for the proof of the last theorem in
+the Appendix to Chapter 11, which went unproved in the first edition. Roy O.
+Davies told me the trick for Problem 11-66, which previously was proved only in
+Problem 20-8 [21-8 in the third edition], and Marina Ratner suggested several
+interesting problems, especially ones on uniform continuity and infinite series. To
+all these people go my thanks, and the hope that in the process of fashioning the
+new edition their contributions weren’t too badly botched.
+
+                                                                 MICHAEL SPIVAK
+PREFACE TO THE THIRD EDITION
+
+
+
+The most significant change in this third edition is the inclusion of a new (starred)
+Chapter 17 on planetary motion, in which calculus is employed for a substantial
+physics problem.
+   In preparation for this, the old Appendix to Chapter 4 has been replaced by
+three Appendices: the first two cover vectors and conic sections, while polar coor­
+dinates are now deferred until the third Appendix, which also discusses the polar
+coordinate equations of the conic sections. Moreover, the Appendix to Chapter 12
+has been extended to treat vector operations on vector-valued curves.
+   Another large change is merely a rearrangement of old material: “The Cos­
+mopolitan Integral,” previously a second Appendix to Chapter 13, is now an
+Appendix to the chapter on “Integration in Elementary Terms” (previously Chap­
+ter 18, now Chapter 19); moreover, those problems from that chapter which used
+the material from that Appendix now appear as problems in the newly placed
+Appendix.
+   A few other changes and renumbering of Problems result from corrections, and
+elimination of incorrect problems.
+   I was both startled and somewhat dismayed when I realized that after allow­
+ing 13 years to elapse between the first and second editions of the book, I have
+allowed another 14 years to elapse before this third edition. During this time I
+seem to have accumulated a not-so-short list of corrections, but no longer have
+the original communications, and therefore cannot properly thank the various in­
+dividuals involved (who by now have probably lost interest anyway). I have had
+time to make only a few changes to the Suggested Reading, which after all these
+years probably requires a complete revision; this will have to wait until the next
+edition, which I hope to make in a more timely fashion.
+
+                                                                MICHAEL SPIVAK
+PREFACE TO THE FOURTH EDITION
+
+
+
+Promises, promises! In the preface to the third edition I noted that it was 13 years
+between the first and second editions, and then another 14 years before the third,
+expressing the hope that the next edition would appear sooner. Well, here it is
+another 14 years later before the fourth, and presumably final, edition.
+   Although small changes have been made to some material, especially in Chap­
+ters 5 and 20, this edition differs mainly in the introduction of additional problems,
+a complete update of the Suggested Reading, and the correction of numerous er­
+rors. These have been brought to my attention over the years by, among others,
+Nils von Barth; Philip Loewen; Fernando Mejias; Lance Miller, who provided a
+long list, particularly for the answer book; and Michael Maltenfort, who provided
+an amazingly extensive list of misprints, errors, and criticisms.
+   Most of all, however, I am indebted to my friend Ted Shifrin, who has been
+using the book for the text in his renowned course at the University of Georgia
+for all these years, and who prodded and helped me to finally make this needed
+revision. I must also thank the students in his course this last academic year, who
+served as guinea pigs for the new edition, resulting, in particular, in the current
+proof in Problem 8-20 for the Rising Sun Lemma, far simpler than Reisz’s original
+proof, or even the proof in [38] of the Suggested Reading, which itself has now
+been updated considerably, again with great help from Ted.
+
+                                                                 MICHAEL SPIVAK
+            CONTENTS
+PREFACE    vi
+
+
+  PARTI    Prologue
+            1      Basic Properties of Numbers 3
+            2      Numbers of Various Sorts 21
+
+ PART II   Foundations
+            3      Functions 39
+                   Appendix. Ordered Pairs 54
+           4       Graphs 56
+                   Appendix 1. Vectors 75
+                   Appendix 2. The Conic Sections 80
+                   Appendix 3. Polar Coordinates 84
+           5       Limits 90
+           6       Continuous Functions 115
+           7       Three Hard Theorems 122
+           8       Least Upper Bounds 133
+                   Appendix. Uniform Continuity 144
+
+PART III    Derivatives and Integrals
+            9 Derivatives 149
+           10 Differentiation 168
+           11 Significance of the Derivative 188
+               Appendix. Convexity and Concavity 219
+           12 Inverse Functions 230
+               Appendix. Parametric Representation of Curves 244
+           13 Integrals 253
+               Appendix. Riemann Sums 282
+           14 The Fundamental Theorem of Calculus 285
+            xiii
+xiv   Contents
+
+
+
+                            15 The Trigonometric Functions 303
+                           *16 7T is Irrational 324
+                           *17 Planetary Motion 330
+                            18 The Logarithm and Exponential Functions    339
+                            19 Integration in Elementary Terms 363
+                                Appendix. The Cosmopolitan Integral 402
+
+                 PART IV     Infinite Sequences and Infinite Series
+                            20   Approximation by Polynomial Functions 411
+                           *21   e is Transcendental 442
+                            22   Infinite Sequences 452
+                            23   Infinite Series 471
+                            24   Uniform Convergence and Power Series 499
+                            25   Complex Numbers 526
+                            26   Complex Functions 541
+                            27   Complex Power Series 555
+
+                 PARTY       Epilogue
+                           28    Fields 581
+                           29    Construction of the Real Numbers 588
+                           30    Uniqueness of the Real Numbers 601
+
+                                 Suggested Reading 609
+                                 Answers (to selected problems)   619
+                                 Glossary of Symbols 665
+                                 Index 669
+CALCULUS
+PART0
+PROLOGUE
+

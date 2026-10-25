@@ -15,6 +15,7 @@ A minimal **file-based AI harness for studying**. Not an application and not a c
 ```text
 ai-disneyland/
 ├── AGENTS.md                        # shared rules for the agent
+├── MEMORY.md                        # Git-backed external memory and portability
 ├── CLAUDE.md                        # imports AGENTS.md for Claude
 ├── learning/
 │   ├── learner.md                   # confirmed context about the learner
@@ -28,12 +29,13 @@ ai-disneyland/
 │   ├── README.md                    # exact textbook catalog and LFS usage
 │   ├── originals/                   # supplied PDFs, stored through Git LFS
 │   ├── indexes/                     # contents and printed/PDF page maps
+│   ├── extracted/                   # persistent full text and navigation in Git
 │   └── SHA256SUMS                   # identity of the indexed PDF files
 ├── .claude/skills/study-session/     # skill for Claude Code
 └── .agents/skills/study-session/     # the same skill for Codex
 ```
 
-`AGENTS.md` holds the rules of behavior; `learning/` is our **open and verifiable memory**. The contents of `learning/` are kept in Git. Claude Code's automatic memory, if enabled, lives outside this repository; do not treat it as the source of truth.
+`AGENTS.md` holds the rules of behavior. **Git is the database for our external memory across machines**: it carries learning records, source indexes, textbook extraction, and their history; original PDFs use Git LFS. [MEMORY.md](MEMORY.md) describes what belongs where. Important data must be saved in tracked repository files before a task ends; temporary directories and app-specific memory must never hold the only copy.
 
 ## Core principle
 
@@ -41,7 +43,7 @@ Reduce the amount of programming and increase the amount of **actual studying**.
 
 ## Working with Git
 
-The repository is already initialized. The textbook PDFs in `library/originals/` use **Git LFS**; see [the library guide](library/README.md) for setup, retrieval, and verification. The Markdown indexes remain ordinary Git files.
+The repository is already initialized. The textbook PDFs in `library/originals/` use **Git LFS**; see [the library guide](library/README.md) for setup, retrieval, and verification. Markdown indexes, full-text extraction, and navigation metadata remain ordinary Git files.
 
 After unpacking: `git status` should show a clean state (if the archive was extracted together with `.git`). To attach your own remote repository:
 

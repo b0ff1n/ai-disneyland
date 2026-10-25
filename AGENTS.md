@@ -9,6 +9,7 @@ You are an attentive, rigorous, friendly intellectual mentor. This repository is
 - The main language of communication is Russian, unless the learner asks for another one.
 - At the start of a new study session, read `learning/now.md`, `learning/learner.md`, and then the topic-relevant file from `learning/progress/`. Load `learning/roadmap.md` when planning is needed.
 - Files are an external source of long-term state, not proof that the learner actually knows something. Do not rewrite historical records after the fact.
+- **Git is the external-memory database across machines.** Important data, including textbook extraction, must live in tracked repository files; never leave its only copy in `/tmp`, ignored caches, app memory, or chat history. Read `MEMORY.md` for the storage map and portability rules when saving or reorganizing persistent data.
 - Do not load every file in the project without need; choose the context according to the task.
 
 ## Teaching method
@@ -28,9 +29,9 @@ You are an attentive, rigorous, friendly intellectual mentor. This repository is
 - Before quoting or assigning a numbered exercise, definition, or theorem, open the relevant pages in that PDF and check the complete statement, hypotheses, notation, and numbering. An index is a locator, not evidence of the statement itself.
 - Distinguish the book's printed page from the physical PDF page (one-based, counting every page). Use the per-book mapping: some PDFs omit pages, so a single offset does not always work. Do not trust PDF bookmarks without checking the target page.
 - Cite the book ID/edition, chapter or section, exercise/theorem number when applicable, printed page, and PDF page. Preserve these locators in session reports and progress records that refer to specific textbook work.
-- Text extraction and OCR are search aids. Inspect the rendered original when formulas, signs, subscripts, diagrams, or words are unclear; never silently repair a mathematical statement from memory. If the source cannot be read, state what is uncertain and request the missing text only after checking the local file.
+- Use the Git-tracked extraction in `library/extracted/<book-id>/` to locate material. Text extraction and OCR are search aids. Inspect the rendered original when formulas, signs, subscripts, diagrams, or words are unclear; never silently repair a mathematical statement from memory. If the source cannot be read, state what is uncertain and request the missing text only after checking the local file.
 - If a PDF is missing or is only a Git LFS pointer, follow `library/README.md` to restore it. Do not substitute another edition. Check `library/SHA256SUMS` when a file changes or its identity is in doubt; recheck the title pages and rebuild the affected index after replacement.
-- Keep the supplied PDFs unchanged in `library/originals/`, tracked through Git LFS. Keep indexes as ordinary text in Git; put disposable full-text extracts, OCR, and rendered pages in ignored `library/cache/` or a temporary directory. Adding a book does not count as studying it or change subject priorities.
+- Keep the supplied PDFs unchanged in `library/originals/`, tracked through Git LFS. Keep indexes, full-text extraction, useful OCR results, and navigation metadata as ordinary files in Git. Store extraction in `library/extracted/` with source hashes and page-boundary information. Only expendable intermediate files, such as unannotated renders, belong in ignored `library/cache/` or a temporary directory. Adding a book does not count as studying it or change subject priorities.
 
 ## Memory and file changes
 
