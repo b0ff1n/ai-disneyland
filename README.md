@@ -7,7 +7,7 @@ A minimal **file-based AI harness for studying**. Not an application and not a c
 1. Open a terminal **in the `ai-disneyland` folder**.
 2. Run `claude` (Claude Code) **or** `codex` (Codex CLI). These tools must be installed and authorized beforehand.
 3. Ask: "Read the project instructions and tell me what you know about my study plan".
-4. Start a session with `/study-session` in Claude Code or `$study-session` in Codex. You can also simply write "Let's run a study session on Spivak".
+4. In Codex, start a session with `$study-session`. You can also simply write "Let's run a study session on Spivak". The skill is currently configured for Codex only.
 5. At the end, say: "We're done with the session. Write it up and update the progress files". Review the proposed changes.
 
 ## How it is organized
@@ -31,8 +31,7 @@ ai-disneyland/
 │   ├── indexes/                     # contents and printed/PDF page maps
 │   ├── extracted/                   # persistent full text and navigation in Git
 │   └── SHA256SUMS                   # identity of the indexed PDF files
-├── .claude/skills/study-session/     # skill for Claude Code
-└── .agents/skills/study-session/     # the same skill for Codex
+└── .agents/skills/study-session/     # single canonical skill, currently for Codex
 ```
 
 `AGENTS.md` holds the rules of behavior. **Git is the database for our external memory across machines**: it carries learning records, source indexes, textbook extraction, and their history; original PDFs use Git LFS. [MEMORY.md](MEMORY.md) describes what belongs where. Important data must be saved in tracked repository files before a task ends; temporary directories and app-specific memory must never hold the only copy.
@@ -61,6 +60,6 @@ Create an empty **private** repository on GitHub in advance, or use another Git 
 - After a session → a new entry in `learning/sessions/`, plus updates to `now.md` and the relevant subject progress file.
 - Recurring mistakes → `learning/progress/<subject>.md`, linked to the session date.
 
-**Compatibility:** the skill is intentionally duplicated in `.claude/skills/` and `.agents/skills/` so that it works in both environments and when the ZIP is unpacked on different operating systems. If you edit the skill's method, keep both `SKILL.md` files in sync. The duplicates can later be replaced with symlinks.
+**Skill location:** maintain one canonical `SKILL.md` in `.agents/skills/study-session/`, currently used by Codex. Prefer common locations and shared files over agent-specific copies. `CLAUDE.md` continues to import the shared project rules from `AGENTS.md`; no separate Claude skill is maintained.
 
 Documentation: [Claude Code memory](https://code.claude.com/docs/en/memory), [Claude Code skills](https://code.claude.com/docs/en/skills), [Codex skills](https://learn.chatgpt.com/docs/build-skills).

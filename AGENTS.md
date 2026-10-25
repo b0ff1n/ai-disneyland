@@ -60,4 +60,4 @@ These are learner-authorized preferences and trial teaching choices, not proven 
 
 ## Skills
 
-If the user asks to run a session, use `study-session` (see `.claude/skills/study-session/SKILL.md` or `.agents/skills/study-session/SKILL.md`, depending on the environment).
+If the user asks to run a session, use `study-session` (see `.agents/skills/study-session/SKILL.md`). Keep one canonical skill file under `.agents/skills/`; do not maintain copies for different agents. The skill is currently configured for Codex.

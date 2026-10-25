@@ -41,3 +41,5 @@ Ordinary Git history carries the learning state, documentation, indexes, and ext
 Memory records evidence, not presumed mastery. Keep historical session records intact and record later corrections or new observations explicitly.
 
 The session report is the single source of historical learning events; `learning/progress/` is the revisable current interpretation, linked to those reports. Use the versioned JSON block inside each Markdown report as specified in [the archive rules](learning/sessions/README.md). Reports and their metadata are ordinary Git files, not LFS objects. Future visualizations can be derived from them without a separate database or manually maintained aggregate. Unknown duration stays unknown, and session counts or time spent are not measures of mastery.
+
+For requests such as "what did we cover this year?", follow the period-review instructions in [the archive rules](learning/sessions/README.md). Reconstruct topics, books and sections, exercises, verified results, assistance, and remaining gaps from dated reports and explicit corrections. `learning/roadmap.md` holds future plans; it is not a record of completed work.
