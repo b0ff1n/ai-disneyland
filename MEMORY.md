@@ -12,7 +12,7 @@ The learner uses this repository on multiple machines. As explicitly requested o
 | `learning/learner.md` | Learner background, preferences, and stated plans; distinguish these from tested knowledge |
 | `learning/roadmap.md` | Study goals and priorities |
 | `learning/progress/*.md` | Observed results, gaps, mistakes, and next checks by subject |
-| `learning/sessions/*.md` | Dated records of completed sessions, linked to the work actually done |
+| `learning/sessions/*.md` | Historical evidence for a future timeline, topic map, or chart: completed-session reports and explicit dated corrections; format in `learning/sessions/README.md` |
 | `library/README.md` | Catalog of exact textbook sources and how to access them |
 | `library/originals/` | Unchanged source PDFs, tracked through Git LFS |
 | `library/indexes/` | Verified contents, edition evidence, and printed/PDF page maps |
@@ -38,3 +38,5 @@ Read `AGENTS.md`, then the relevant tracked state: `learning/now.md`, `learning/
 Ordinary Git history carries the learning state, documentation, indexes, and extraction. Source PDFs additionally require the LFS objects; follow [the library setup](library/README.md). Transfer them through an authorized Git/LFS push and pull, or copy a repository that includes the local LFS object store. A local commit is durable locally but is not automatically transferred to another machine.
 
 Memory records evidence, not presumed mastery. Keep historical session records intact and record later corrections or new observations explicitly.
+
+The session report is the single source of historical learning events; `learning/progress/` is the revisable current interpretation, linked to those reports. Use the versioned JSON block inside each Markdown report as specified in [the archive rules](learning/sessions/README.md). Reports and their metadata are ordinary Git files, not LFS objects. Future visualizations can be derived from them without a separate database or manually maintained aggregate. Unknown duration stays unknown, and session counts or time spent are not measures of mastery.

@@ -1,22 +1,40 @@
-# Study session — YYYY-MM-DD
+# Учебное занятие — YYYY-MM-DD
 
-- **Subject:**
-- **Material / section:**
-- **Duration:** not specified (if unknown)
+<!-- Шаблон, не запись урока. Правила: learning/sessions/README.md.
+Заменить все заполнители. Оставить observations: [], если наблюдений нет.
+Не дублировать результаты в прозе: они хранятся в единственном JSON-блоке. -->
 
-## What we studied
+```json
+{
+  "schema_version": 1,
+  "record_type": "session",
+  "date": "YYYY-MM-DD",
+  "timezone": "Area/City",
+  "duration": null,
+  "observations": [
+    {
+      "id": "o1",
+      "subject": "<устойчивый код предмета>",
+      "topics": ["<устойчивое название темы>"],
+      "status": "attempted",
+      "result": "<конкретное действие или результат ученика>",
+      "assistance": "<какая помощь была дана; none или unknown при необходимости>",
+      "verification": "not_verified",
+      "evidence": "<что наблюдал агент, что проверено или почему не проверено>",
+      "sources": [],
+      "corrects": []
+    }
+  ]
+}
+```
 
-## What was checked independently
+## Пробелы и открытые вопросы
 
-List specific problems and a short description of the solution, if known.
+<!-- Ссылаться на id наблюдений; не добавлять неподтверждённые оценки владения. -->
 
-## What worked with hints
+## Следующий шаг
 
-## Mistakes / gaps
+## Обновлённые файлы прогресса
 
-## Unverified claims and open questions
-
-## Next step
-
-## Progress files changed
+<!-- Относительные ссылки на изменённые файлы; «нет», если изменений нет. -->
 
